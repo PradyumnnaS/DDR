@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DDR Test Automation Suite" verbose="1" >
+  <test name="Smoke DDR Test" >
+  <!--  
+  <listeners>
+    <listener class-name="com.crm.qa.extendreportlistener.ExtendReportListener" />
+  </listeners>  
+  -->
+    <classes>
+      <class name="com.cavisson.ddr.testcases.NetstormLoginTest"></class>
+      <class name="com.cavisson.ddr.testcases.NetstormHomePageTest"></class>
+      <class name="com.cavisson.ddr.testcases.NetstormSessionPageTest"></class>
+    </classes>
+ </test>
+</suite>

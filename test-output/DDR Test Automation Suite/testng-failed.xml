@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [DDR Test Automation Suite]">
+  <test name="Smoke DDR Test(failed)">
+    <classes>
+      <class name="com.cavisson.ddr.testcases.NetstormSessionPageTest">
+        <methods>
+          <include name="clickonEDLinkTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cavisson.ddr.testcases.NetstormSessionPageTest -->
+    </classes>
+  </test> <!-- Smoke DDR Test(failed) -->
+</suite> <!-- Failed suite [DDR Test Automation Suite] -->
