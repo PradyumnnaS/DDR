@@ -1,5 +1,7 @@
 package com.cavisson.ddr.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,8 +30,8 @@ public class NetstormSessionPage extends TestBase{
 	@FindBy(xpath="//span[contains(text(), \"Apply\")]/parent::button[@style='margin-left: 3%; margin-top: 9%']")
 	WebElement applybtn;
 	
-	@FindBy(xpath="//td//span[contains(text(),'1082')]/parent::a/parent::span/parent::td/preceding-sibling::td//span[contains(@class,'ui-chkbox-icon ui-clickable')]")
-	WebElement trselectcheckbox;
+	@FindBy(xpath="//td//span/parent::a/parent::span/parent::td/preceding-sibling::td//span[contains(@class,'ui-chkbox-icon ui-clickable')]")
+	List<WebElement> trcheckbox;
 	
 	@FindBy(xpath="//span[contains(text(), 'Executive Dashboard')]")
 	WebElement edbtnlink;
@@ -47,8 +49,8 @@ public class NetstormSessionPage extends TestBase{
 	}
 	
 	public NetstormEDPage clickonEDLink() {
-		//send test run number given in conf file
 		
+		//sending testrun number from that present in config directory
 		testrunsearchbox.sendKeys(prop.getProperty("testrun"));
 		
 		//selecting all from duration drop down 
@@ -69,10 +71,6 @@ public class NetstormSessionPage extends TestBase{
 		
 		applybtn.click();
 		
-		//Now selecting check box for the tr 
-		//Here encountered issue like element is not displayed but present in DOM
-		//Hence used JavaScriptExecutor for this .
-		//Static 1 sec wait before selecting TR check box
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
@@ -80,15 +78,26 @@ public class NetstormSessionPage extends TestBase{
 			e.printStackTrace();
 		}
 		
-		JavascriptExecutor js = (JavascriptExecutor)driver;
+		//System.out.println("Total checkbox count:-"+trcheckbox.size());
 		
-		//System.out.println("Element Displayed in DOM Going to perform click operation");
-		js.executeScript("arguments[0].click();", trselectcheckbox);
+		if(trcheckbox.size()==2) {
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			js.executeScript("arguments[0].click();", trcheckbox.get(1));
+		}else {
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			js.executeScript("arguments[0].click();", trcheckbox.get(0));
+		}
+		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		//Click on EDbtn
 		edbtnlink.click();
-		
+				
 		return new NetstormEDPage();
-		
-	}
+	}		
 }
