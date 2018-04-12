@@ -7,9 +7,9 @@
   </listeners>  
   -->
     <classes>
-      <class name="com.cavisson.ddr.testcases.NetstormSessionPageTest">
+      <class name="com.cavisson.ddr.testcases.NetstormEDPageTest">
       	<methods>
-      		<include name="clickonEDLinkTest"></include>
+      		<include name="validateShowDashboardTest"></include>
       	</methods>
       </class>
     </classes>

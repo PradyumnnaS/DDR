@@ -10,6 +10,7 @@
       <class name="com.cavisson.ddr.testcases.NetstormLoginTest"></class>
       <class name="com.cavisson.ddr.testcases.NetstormHomePageTest"></class>
       <class name="com.cavisson.ddr.testcases.NetstormSessionPageTest"></class>
+      <class name="com.cavisson.ddr.testcases.NetstormEDPageTest"></class>
     </classes>
  </test>
 </suite>

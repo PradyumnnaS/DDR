@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,6 +13,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.cavisson.ddr.util.EventListener;
 import com.cavisson.ddr.util.TestUtil;
+import com.cavisson.ddr.base.TestBase;
 
 
 
@@ -24,27 +26,39 @@ public class TestBase {
 	public static EventFiringWebDriver e_driver;
 	public static EventListener weblistener; 
 	
+	// Logger Class for enabling logging
+	public static Logger log = Logger.getLogger(TestBase.class);
+	
 	public TestBase(){
+		
 		
 		prop = new Properties();
 		
 		try {
 			
+			log.info("Getting configuration values from config.properties "
+					+ "and loading the data into Properties class instance");
+			
 			FileInputStream fin = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/cavisson/ddr/config/config.properties");
 			prop.load(fin);
-					
+			
+			log.info("Config.properties file loaded successfully");		
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
+			log.error("Config Properties not found");
 			e.printStackTrace();
+			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
+			log.error("May be file not exsist");
 			e.printStackTrace();
 		}
 	}
 	
 	public static void initialized() {
-		
+	
 		// Getting browser name from config.properties file
+		log.info("Default Initialization started");
 		
 		String browserName = prop.getProperty("browser");
 				
@@ -75,6 +89,8 @@ public class TestBase {
 					
 		// Calling url
 			driver.get(prop.getProperty("url"));
+			
+			log.info("Default initialization finished");
 	}
 
 	

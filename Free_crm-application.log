@@ -1,0 +1,318 @@
+2018-04-09 22:23:21,480  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:23:21,498  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:23:21,499  INFO [main] NetstormLoginTest:24 - Called Super class constructor TestBase from NetstormLoginTest
+2018-04-09 22:23:21,531  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:23:21,531  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:23:21,532  INFO [main] NetstormHomePageTest:27 - Called Super class constructor TestBase from NetstormHomePageTest
+2018-04-09 22:23:21,538  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:23:21,538  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:23:21,539  INFO [main] NetstormSessionPageTest:26 - Called Super class constructor TestBase from NetstormSessionPageTest
+2018-04-09 22:23:21,544  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:23:21,544  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:23:21,545  INFO [main] NetstormEDPageTest:28 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-04-09 22:23:21,612  INFO [main] NetstormLoginTest:30 - Called setUp method
+2018-04-09 22:23:21,613  INFO [main] TestBase:61 - Default Initialization started
+2018-04-09 22:23:46,382  INFO [main] TestBase:93 - Default initialization finished
+2018-04-09 22:23:46,382  INFO [main] NetstormLoginTest:32 - Called initialized method from NetstormLoginTest
+2018-04-09 22:23:46,457  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:23:46,599  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:23:46,788  INFO [main] NetstormLoginTest:40 - Started:loginNetstormTitletest TestCase-1
+2018-04-09 22:23:46,912  INFO [main] NetstormLoginTest:45 - Completed:loginNetstormTitletest TestCase-1
+2018-04-09 22:23:46,918  INFO [main] NetstormLoginTest:60 - Called tearDown: Quiting driver
+2018-04-09 22:23:47,569  INFO [main] NetstormHomePageTest:32 - Called setUp method
+2018-04-09 22:23:47,570  INFO [main] TestBase:61 - Default Initialization started
+2018-04-09 22:24:07,495  INFO [main] TestBase:93 - Default initialization finished
+2018-04-09 22:24:07,495  INFO [main] NetstormHomePageTest:34 - Called initialized method from NetstormHomePageTest
+2018-04-09 22:24:07,495  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:24:07,495  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:24:08,527  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:24:08,528  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:24:10,515  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:24:10,516  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:24:12,523  INFO [main] NetstormHomePageTest:50 - Started:validateNetstormHomeTest TestCase-3
+2018-04-09 22:24:16,162  INFO [main] NetstormHomePageTest:53 - Completed:validateNetstormHomeTest TestCase-3
+2018-04-09 22:24:16,165  INFO [main] NetstormHomePageTest:73 - Called tearDown: Quiting driver
+2018-04-09 22:24:16,865  INFO [main] NetstormSessionPageTest:31 - Called setUp method
+2018-04-09 22:24:16,866  INFO [main] TestBase:61 - Default Initialization started
+2018-04-09 22:24:33,205  INFO [main] TestBase:93 - Default initialization finished
+2018-04-09 22:24:33,205  INFO [main] NetstormSessionPageTest:33 - Called initialized method from NetstormSessionPageTest
+2018-04-09 22:24:33,205  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:24:33,206  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:24:33,664  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:24:33,664  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:24:39,780  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:24:39,781  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:24:39,783  INFO [main] NetstormSessionPageTest:50 - Started:validateSessionPageTest TestCase-6
+2018-04-09 22:24:39,952  INFO [main] NetstormSessionPageTest:53 - Completed:validateSessionPageTest TestCase-6
+2018-04-09 22:24:39,954  INFO [main] NetstormSessionPageTest:65 - Called tearDown: Quiting driver
+2018-04-09 22:24:41,822  INFO [main] NetstormEDPageTest:33 - Called setUp method
+2018-04-09 22:24:41,823  INFO [main] TestBase:61 - Default Initialization started
+2018-04-09 22:24:54,644  INFO [main] TestBase:93 - Default initialization finished
+2018-04-09 22:24:54,645  INFO [main] NetstormEDPageTest:36 - Called initialized method from NetstormEDPageTest
+2018-04-09 22:24:54,645  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:24:54,645  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:24:55,202  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:24:55,203  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:25:13,910  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:25:13,949  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:25:57,725  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:25:58,030  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:25:58,031  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:25:58,031  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:25:58,033  INFO [main] NetstormEDPageTest:57 - Started:validateEDPageTest TestCase-8
+2018-04-09 22:26:09,798  INFO [main] NetstormEDPageTest:70 - Completed:validateEDPageTest TestCase-8
+2018-04-09 22:26:09,807  INFO [main] NetstormEDPageTest:76 - Called tearDown: Quiting driver
+2018-04-09 22:26:11,025  INFO [main] NetstormLoginTest:30 - Called setUp method
+2018-04-09 22:26:11,026  INFO [main] TestBase:61 - Default Initialization started
+2018-04-09 22:26:34,265  INFO [main] TestBase:93 - Default initialization finished
+2018-04-09 22:26:34,265  INFO [main] NetstormLoginTest:32 - Called initialized method from NetstormLoginTest
+2018-04-09 22:26:34,268  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:26:34,288  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:26:34,290  INFO [main] NetstormLoginTest:50 - Started:loginNetstormTest TestCase-2
+2018-04-09 22:26:40,902  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:26:40,903  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:26:40,905  INFO [main] NetstormLoginTest:54 - Completed:loginNetstormTest TestCase-2
+2018-04-09 22:26:40,911  INFO [main] NetstormLoginTest:60 - Called tearDown: Quiting driver
+2018-04-09 22:26:41,604  INFO [main] NetstormHomePageTest:32 - Called setUp method
+2018-04-09 22:26:41,605  INFO [main] TestBase:61 - Default Initialization started
+2018-04-09 22:27:01,354  INFO [main] TestBase:93 - Default initialization finished
+2018-04-09 22:27:01,355  INFO [main] NetstormHomePageTest:34 - Called initialized method from NetstormHomePageTest
+2018-04-09 22:27:01,356  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:27:01,357  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:27:01,357  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:27:01,358  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:27:02,139  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:27:02,139  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:27:04,143  INFO [main] NetstormHomePageTest:58 - Started:validateNetstormReleaseTest TestCase-4
+2018-04-09 22:27:09,838  INFO [main] NetstormHomePageTest:61 - Completed:validateNetstormReleaseTest TestCase-4
+2018-04-09 22:27:09,907  INFO [main] NetstormHomePageTest:73 - Called tearDown: Quiting driver
+2018-04-09 22:27:11,454  INFO [main] NetstormSessionPageTest:31 - Called setUp method
+2018-04-09 22:27:11,455  INFO [main] TestBase:61 - Default Initialization started
+2018-04-09 22:27:58,254  INFO [main] TestBase:93 - Default initialization finished
+2018-04-09 22:27:58,356  INFO [main] NetstormSessionPageTest:33 - Called initialized method from NetstormSessionPageTest
+2018-04-09 22:27:58,357  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:27:58,393  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:28:00,433  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:28:00,435  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:28:10,789  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:28:10,789  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:28:10,916  INFO [main] NetstormSessionPageTest:58 - Started:clickonEDLinkTest TestCase-7
+2018-04-09 22:28:18,318  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:28:18,319  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:28:18,320  INFO [main] NetstormSessionPageTest:60 - Completed:clickonEDLinkTest TestCase-7
+2018-04-09 22:28:18,326  INFO [main] NetstormSessionPageTest:65 - Called tearDown: Quiting driver
+2018-04-09 22:28:20,775  INFO [main] NetstormHomePageTest:32 - Called setUp method
+2018-04-09 22:28:20,776  INFO [main] TestBase:61 - Default Initialization started
+2018-04-09 22:28:44,030  INFO [main] TestBase:93 - Default initialization finished
+2018-04-09 22:28:44,030  INFO [main] NetstormHomePageTest:34 - Called initialized method from NetstormHomePageTest
+2018-04-09 22:28:44,030  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:28:44,031  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:28:44,031  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:28:44,032  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:28:48,250  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:28:48,252  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:28:50,256  INFO [main] NetstormHomePageTest:66 - Started:clickonSessionTest TestCase-5
+2018-04-09 22:28:58,363  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-09 22:28:58,363  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-09 22:28:58,364  INFO [main] NetstormHomePageTest:68 - Completed:clickonSessionTest TestCase-5
+2018-04-09 22:28:58,367  INFO [main] NetstormHomePageTest:73 - Called tearDown: Quiting driver
+2018-04-11 09:53:42,003  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-11 09:53:42,061  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-11 09:53:42,063  INFO [main] NetstormEDPageTest:28 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-04-11 09:53:42,233  INFO [main] NetstormEDPageTest:33 - Called setUp method
+2018-04-11 09:53:42,234  INFO [main] TestBase:61 - Default Initialization started
+2018-04-11 09:53:53,027  INFO [main] TestBase:93 - Default initialization finished
+2018-04-11 09:53:53,028  INFO [main] NetstormEDPageTest:36 - Called initialized method from NetstormEDPageTest
+2018-04-11 09:53:53,141  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-11 09:53:53,143  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-11 09:53:53,720  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-11 09:53:53,720  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-11 09:53:59,853  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-11 09:53:59,854  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-11 09:54:03,910  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-11 09:54:03,910  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-11 09:54:03,911  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-11 09:54:03,912  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-11 09:54:03,922  INFO [main] NetstormEDPageTest:57 - Started:validateEDPageTest TestCase-8
+2018-04-11 09:54:07,126  INFO [main] NetstormEDPageTest:70 - Completed:validateEDPageTest TestCase-8
+2018-04-11 09:54:07,134  INFO [main] NetstormEDPageTest:76 - Called tearDown: Quiting driver
+2018-04-12 10:29:38,191  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:29:38,207  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:29:38,207  INFO [main] NetstormEDPageTest:28 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-04-12 10:29:38,286  INFO [main] NetstormEDPageTest:33 - Called setUp method
+2018-04-12 10:29:38,286  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 10:29:44,465  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 10:29:44,466  INFO [main] NetstormEDPageTest:36 - Called initialized method from NetstormEDPageTest
+2018-04-12 10:29:44,467  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:29:44,467  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:29:45,171  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:29:45,172  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:31:13,575  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:31:13,578  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:31:13,578  INFO [main] NetstormEDPageTest:28 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-04-12 10:31:13,671  INFO [main] NetstormEDPageTest:33 - Called setUp method
+2018-04-12 10:31:13,671  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 10:31:22,443  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 10:31:22,444  INFO [main] NetstormEDPageTest:36 - Called initialized method from NetstormEDPageTest
+2018-04-12 10:31:22,445  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:31:22,445  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:31:22,852  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:31:22,852  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:31:28,026  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:31:28,027  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:31:32,036  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:31:32,036  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:31:32,037  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 10:31:32,039  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 10:31:33,519  INFO [main] NetstormEDPageTest:88 - Called tearDown: Quiting driver
+2018-04-12 11:02:52,532  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:02:52,537  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:02:52,538  INFO [main] NetstormEDPageTest:28 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-04-12 11:02:52,638  INFO [main] NetstormEDPageTest:33 - Called setUp method
+2018-04-12 11:02:52,638  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:02:58,597  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:02:58,598  INFO [main] NetstormEDPageTest:36 - Called initialized method from NetstormEDPageTest
+2018-04-12 11:02:58,600  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:02:58,600  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:02:59,004  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:02:59,006  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:04,107  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:04,107  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:08,136  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:08,136  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:08,137  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:08,139  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:10,547  INFO [main] NetstormEDPageTest:88 - Called tearDown: Quiting driver
+2018-04-12 11:03:23,788  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:23,791  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:23,791  INFO [main] NetstormLoginTest:24 - Called Super class constructor TestBase from NetstormLoginTest
+2018-04-12 11:03:23,813  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:23,813  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:23,814  INFO [main] NetstormHomePageTest:27 - Called Super class constructor TestBase from NetstormHomePageTest
+2018-04-12 11:03:23,821  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:23,821  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:23,821  INFO [main] NetstormSessionPageTest:26 - Called Super class constructor TestBase from NetstormSessionPageTest
+2018-04-12 11:03:23,828  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:23,828  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:23,829  INFO [main] NetstormEDPageTest:28 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-04-12 11:03:23,886  INFO [main] NetstormLoginTest:30 - Called setUp method
+2018-04-12 11:03:23,886  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:03:31,161  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:03:31,161  INFO [main] NetstormLoginTest:32 - Called initialized method from NetstormLoginTest
+2018-04-12 11:03:31,164  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:31,164  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:31,210  INFO [main] NetstormLoginTest:40 - Started:loginNetstormTitletest TestCase-1
+2018-04-12 11:03:31,226  INFO [main] NetstormLoginTest:45 - Completed:loginNetstormTitletest TestCase-1
+2018-04-12 11:03:31,236  INFO [main] NetstormLoginTest:60 - Called tearDown: Quiting driver
+2018-04-12 11:03:31,316  INFO [main] NetstormHomePageTest:32 - Called setUp method
+2018-04-12 11:03:31,316  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:03:39,500  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:03:39,501  INFO [main] NetstormHomePageTest:34 - Called initialized method from NetstormHomePageTest
+2018-04-12 11:03:39,501  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:39,501  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:39,509  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:39,510  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:39,799  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:39,799  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:41,808  INFO [main] NetstormHomePageTest:50 - Started:validateNetstormHomeTest TestCase-3
+2018-04-12 11:03:44,779  INFO [main] NetstormHomePageTest:53 - Completed:validateNetstormHomeTest TestCase-3
+2018-04-12 11:03:44,787  INFO [main] NetstormHomePageTest:73 - Called tearDown: Quiting driver
+2018-04-12 11:03:44,865  INFO [main] NetstormSessionPageTest:31 - Called setUp method
+2018-04-12 11:03:44,865  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:03:52,726  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:03:52,727  INFO [main] NetstormSessionPageTest:33 - Called initialized method from NetstormSessionPageTest
+2018-04-12 11:03:52,728  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:52,728  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:53,090  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:53,091  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:58,263  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:03:58,264  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:03:58,267  INFO [main] NetstormSessionPageTest:50 - Started:validateSessionPageTest TestCase-6
+2018-04-12 11:03:58,345  INFO [main] NetstormSessionPageTest:53 - Completed:validateSessionPageTest TestCase-6
+2018-04-12 11:03:58,346  INFO [main] NetstormSessionPageTest:65 - Called tearDown: Quiting driver
+2018-04-12 11:03:58,426  INFO [main] NetstormEDPageTest:33 - Called setUp method
+2018-04-12 11:03:58,428  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:04:04,493  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:04:04,493  INFO [main] NetstormEDPageTest:36 - Called initialized method from NetstormEDPageTest
+2018-04-12 11:04:04,493  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:04,493  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:04,816  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:04,817  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:09,951  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:09,952  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:13,937  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:13,937  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:13,938  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:13,939  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:13,940  INFO [main] NetstormEDPageTest:57 - Started:validateEDPageTest TestCase-8
+2018-04-12 11:04:14,795  INFO [main] NetstormEDPageTest:70 - Completed:validateEDPageTest TestCase-8
+2018-04-12 11:04:14,803  INFO [main] NetstormEDPageTest:88 - Called tearDown: Quiting driver
+2018-04-12 11:04:14,876  INFO [main] NetstormLoginTest:30 - Called setUp method
+2018-04-12 11:04:14,877  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:04:19,745  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:04:19,745  INFO [main] NetstormLoginTest:32 - Called initialized method from NetstormLoginTest
+2018-04-12 11:04:19,746  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:19,746  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:19,749  INFO [main] NetstormLoginTest:50 - Started:loginNetstormTest TestCase-2
+2018-04-12 11:04:20,083  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:20,083  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:20,086  INFO [main] NetstormLoginTest:54 - Completed:loginNetstormTest TestCase-2
+2018-04-12 11:04:20,089  INFO [main] NetstormLoginTest:60 - Called tearDown: Quiting driver
+2018-04-12 11:04:20,174  INFO [main] NetstormHomePageTest:32 - Called setUp method
+2018-04-12 11:04:20,175  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:04:26,179  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:04:26,179  INFO [main] NetstormHomePageTest:34 - Called initialized method from NetstormHomePageTest
+2018-04-12 11:04:26,179  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:26,181  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:26,182  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:26,182  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:26,504  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:26,504  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:28,510  INFO [main] NetstormHomePageTest:58 - Started:validateNetstormReleaseTest TestCase-4
+2018-04-12 11:04:31,421  INFO [main] NetstormHomePageTest:61 - Completed:validateNetstormReleaseTest TestCase-4
+2018-04-12 11:04:31,423  INFO [main] NetstormHomePageTest:73 - Called tearDown: Quiting driver
+2018-04-12 11:04:31,501  INFO [main] NetstormSessionPageTest:31 - Called setUp method
+2018-04-12 11:04:31,501  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:04:39,371  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:04:39,372  INFO [main] NetstormSessionPageTest:33 - Called initialized method from NetstormSessionPageTest
+2018-04-12 11:04:39,372  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:39,372  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:39,676  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:39,676  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:44,855  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:44,856  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:44,863  INFO [main] NetstormSessionPageTest:58 - Started:clickonEDLinkTest TestCase-7
+2018-04-12 11:04:48,813  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:48,813  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:48,814  INFO [main] NetstormSessionPageTest:60 - Completed:clickonEDLinkTest TestCase-7
+2018-04-12 11:04:48,816  INFO [main] NetstormSessionPageTest:65 - Called tearDown: Quiting driver
+2018-04-12 11:04:49,004  INFO [main] NetstormEDPageTest:33 - Called setUp method
+2018-04-12 11:04:49,004  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:04:54,037  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:04:54,038  INFO [main] NetstormEDPageTest:36 - Called initialized method from NetstormEDPageTest
+2018-04-12 11:04:54,038  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:54,038  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:54,364  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:54,365  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:04:59,481  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:04:59,482  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:05:03,449  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:05:03,450  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:05:03,451  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:05:03,451  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:05:05,928  INFO [main] NetstormEDPageTest:88 - Called tearDown: Quiting driver
+2018-04-12 11:05:06,024  INFO [main] NetstormHomePageTest:32 - Called setUp method
+2018-04-12 11:05:06,024  INFO [main] TestBase:61 - Default Initialization started
+2018-04-12 11:05:13,958  INFO [main] TestBase:93 - Default initialization finished
+2018-04-12 11:05:13,960  INFO [main] NetstormHomePageTest:34 - Called initialized method from NetstormHomePageTest
+2018-04-12 11:05:13,961  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:05:13,963  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:05:13,963  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:05:13,965  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:05:14,256  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:05:14,256  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:05:16,260  INFO [main] NetstormHomePageTest:66 - Started:clickonSessionTest TestCase-5
+2018-04-12 11:05:19,441  INFO [main] TestBase:39 - Getting configuration values from config.properties and loading the data into Properties class instance
+2018-04-12 11:05:19,441  INFO [main] TestBase:45 - Config.properties file loaded successfully
+2018-04-12 11:05:19,442  INFO [main] NetstormHomePageTest:68 - Completed:clickonSessionTest TestCase-5
+2018-04-12 11:05:19,444  INFO [main] NetstormHomePageTest:73 - Called tearDown: Quiting driver
