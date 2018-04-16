@@ -39,7 +39,21 @@ public class NetstormLogin extends TestBase{
 	public NetstormHomePage loginNetstorm(String uname, String pswd) {
 		
 		username.sendKeys(uname);
+		try {
+			Thread.sleep(100);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		password.sendKeys(pswd);
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		netstormlogin.click();
 		
 		return new NetstormHomePage();

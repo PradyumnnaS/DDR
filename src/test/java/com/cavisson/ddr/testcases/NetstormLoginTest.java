@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import com.cavisson.ddr.base.TestBase;
 import com.cavisson.ddr.pages.NetstormHomePage;
 import com.cavisson.ddr.pages.NetstormLogin;
+import com.cavisson.ddr.util.RetryAnalyzer;
 
 public class NetstormLoginTest extends TestBase{
 
@@ -45,7 +46,7 @@ public class NetstormLoginTest extends TestBase{
 		log.info("Completed:loginNetstormTitletest TestCase-1");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, retryAnalyzer =RetryAnalyzer.class)
 	public void loginNetstormTest() {
 		log.info("Started:loginNetstormTest TestCase-2");
 		

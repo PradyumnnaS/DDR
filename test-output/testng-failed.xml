@@ -5,7 +5,7 @@
     <classes>
       <class name="com.cavisson.ddr.testcases.NetstormEDPageTest">
         <methods>
-          <include name="validateShowDashboardTest"/>
+          <include name="showFlowPathForSelectedTierTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

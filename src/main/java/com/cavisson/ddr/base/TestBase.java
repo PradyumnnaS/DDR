@@ -75,10 +75,10 @@ public class TestBase {
 		
 		//Creating WebDriver Fire event object
 				//that is creating objects for WebDriverEventListener
-				e_driver = new EventFiringWebDriver(driver);
-				weblistener = new EventListener();
-				e_driver.register(weblistener);
-				driver = e_driver;
+				//e_driver = new EventFiringWebDriver(driver);
+				//weblistener = new EventListener();
+				//e_driver.register(weblistener);
+				//driver = e_driver;
 		
 		// Default value for webdriver driver 
 			driver.manage().window().maximize();

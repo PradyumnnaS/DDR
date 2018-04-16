@@ -73,16 +73,163 @@ public class NetstormEDPageTest extends TestBase {
 	@Test(priority=2)
 	public void validateShowDashboardTest() {
 		
+		log.info("Started:validateEDPageTest TestCase-9");
+		
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
-		edpageobj.validateShowDashboard();
+		
+		boolean showdashboardlabelcheck=edpageobj.validateShowDashboard();
+		
+		Assert.assertTrue(showdashboardlabelcheck, "Failed: ShowDashboard Tab is not showing");
+
 		//Switching Back to SessionPage
 		testutilobj.switchBackToParentWindow(parentwindow);
+		
+		log.info("Completed:validateEDPageTest TestCase-9");
 		
 		
 	}
 	
+	@Test(priority=3)
+	public void validateTierInfoTest() {
+		log.info("Started:validateEDPageTest TestCase-10");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+		
+		String tierinfolabel = edpageobj.validateTierInfo();
+		Assert.assertEquals(tierinfolabel, "Tier Info", "Failed: Tier Info PopUp Label changed or it is not opening");
+		
+		//Switching Back to SessionPage
+		testutilobj.switchBackToParentWindow(parentwindow);
+		
+		log.info("Completed:validateEDPageTest TestCase-11");
+		
+	}
 	
+	@Test(priority=4)
+	public void overviewInTierInfoTest() {
+		log.info("Started:validateEDPageTest TestCase-11");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+		
+		String tierlabelinoverview = edpageobj.overviewInTierInfo();
+		Assert.assertEquals(tierlabelinoverview, "AtgTier", "Failed: Tier Details is not showing in OverView tab in TierInfo" );
+		
+		//Switching Back to SessionPage
+		testutilobj.switchBackToParentWindow(parentwindow);
+		
+		
+		log.info("Completed:validateEDPageTest TestCase-11");
+		
+	}
+	
+	@Test(priority=5)
+	public void healthInTierInfoTest() {
+		
+		log.info("Started:validateEDPageTest TestCase-12");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+		
+		String tierlabelinhealth=edpageobj.healthInTierInfo();
+		Assert.assertEquals(tierlabelinhealth, "AtgTier", "Failed: Tier Details is not showing in Health tab in TierInfo");
+		
+		//Switching Back to SessionPage
+		testutilobj.switchBackToParentWindow(parentwindow);
+		log.info("Completed:validateEDPageTest TestCase-12");
+	}
+	
+	/*@Test(priority=6)
+	public void noDataInTpsOrResponseTest() {
+		log.info("Started:validateEDPageTest TestCase-13");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+		
+		String nodatalable= edpageobj.noDataInTpsOrResponse();
+		Assert.assertEquals(nodatalable, "No data available!", "Failed: No data available! element is not showing in ED");
+		
+		//Switching Back to SessionPage
+		testutilobj.switchBackToParentWindow(parentwindow);
+		log.info("Completed:validateEDPageTest TestCase-13");
+	}*/
+	
+	@Test(priority=6)
+	public void tpsPopUpLabelTest() {
+		log.info("Started:validateEDPageTest TestCase-14");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+	
+		String tpslabel = edpageobj.tpsPopUpLabel();
+		Assert.assertEquals(tpslabel, "Top 10 TPS", "Failed: TPS PopUp Label changed or popup is not displaying");
+	
+		//Switching Back to SessionPage	
+		testutilobj.switchBackToParentWindow(parentwindow);
+		log.info("Completed:validateEDPageTest TestCase-14");
+		
+	}
+	
+	@Test(priority=7)
+	public void validateBtShowingInTpsTest() {
+		log.info("Started:validateEDPageTest TestCase-15");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+		
+		Boolean btintps = edpageobj.validateBtShowingInTps();
+		Assert.assertTrue(btintps, "Failed: TPS Tab is not showing any Business Transction / Business Transaction exceeds more then 10 count");
+		
+		//Switching Back to SessionPage	
+		testutilobj.switchBackToParentWindow(parentwindow);
+		log.info("Completed:validateEDPageTest TestCase-15");
+		
+	}
+	
+	@Test(priority=8)
+	public void responsePopUpLabelTest() {
+		
+		log.info("Started:validateEDPageTest TestCase-16");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+		
+		String responselabel = edpageobj.responsePopUpLabel();
+		Assert.assertEquals(responselabel, "Top 10 Response", "Failed: Response PopUp Label changed or popup is not displaying");
+		
+		//Switching Back to SessionPage	
+		testutilobj.switchBackToParentWindow(parentwindow);
+		log.info("Completed:validateEDPageTest TestCase-16");
+		
+		
+		
+	}
+	
+	@Test(priority=9)
+	public void validateBtShowingInResponseTest() {
+		
+		log.info("Started:validateEDPageTest TestCase-16");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+	
+		Boolean btintps = edpageobj.validateBtShowingInTps();
+		Assert.assertTrue(btintps, "Failed: Response Tab is not showing any Business Transction / Business Transaction exceeds more then 10 count");
+		
+		//Switching Back to SessionPage	
+		testutilobj.switchBackToParentWindow(parentwindow);
+		log.info("Completed:validateEDPageTest TestCase-16");
+	
+	}
+	
+	@Test(priority=10)
+	public void showFlowPathForSelectedTierTest() {
+		
+		log.info("Started:validateEDPageTest TestCase-17");
+		//Switching to ED
+		String parentwindow=testutilobj.switchToChildWindow();
+		
+		Assert.assertTrue(edpageobj.showFlowPathForSelectedTier(), "Failed: Show FlowPath For Selected Tier is not showing");
+		
+		//Switching Back to SessionPage	
+		testutilobj.switchBackToParentWindow(parentwindow);
+		log.info("Completed:validateEDPageTest TestCase-17");
+		
+	}
 	@AfterMethod
 	public void tearDown() {
 		log.info("Called tearDown: Quiting driver");

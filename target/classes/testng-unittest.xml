@@ -9,7 +9,7 @@
     <classes>
       <class name="com.cavisson.ddr.testcases.NetstormEDPageTest">
       	<methods>
-      		<include name="validateShowDashboardTest"></include>
+      		<include name="showFlowPathForSelectedTierTest"></include>
       	</methods>
       </class>
     </classes>

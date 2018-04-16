@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
 import com.cavisson.ddr.base.TestBase;
 
 public class TestUtil extends TestBase {
@@ -58,4 +60,15 @@ public class TestUtil extends TestBase {
 		
 	}
 	
+	// This static method used for double clicking on Tier box and then perform right click on it.
+	// This method requried a webelement as an argument to perform the required operation.
+	
+	public static void openTierDropDownMenu(WebElement tierbox){
+		Actions action = new Actions(driver);
+		action.doubleClick(tierbox).build().perform();
+						
+		//RightClicking of Tier
+		action.contextClick(tierbox).build().perform();
+		
+	}
 }
