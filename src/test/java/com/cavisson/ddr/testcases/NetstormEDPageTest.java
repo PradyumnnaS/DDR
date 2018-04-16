@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.cavisson.ddr.base.TestBase;
+import com.cavisson.ddr.pages.NDFlowPathReportPage;
 import com.cavisson.ddr.pages.NetstormEDPage;
 import com.cavisson.ddr.pages.NetstormHomePage;
 import com.cavisson.ddr.pages.NetstormLogin;
@@ -21,6 +22,8 @@ public class NetstormEDPageTest extends TestBase {
 	NetstormSessionPage sessionpageobj;
 	NetstormEDPage edpageobj;
 	TestUtil testutilobj;
+	NDFlowPathReportPage fprptobj;
+	
 	// Logger Class for enabling logging
 	Logger log = Logger.getLogger(NetstormEDPageTest.class);
 	public NetstormEDPageTest() {
@@ -49,6 +52,9 @@ public class NetstormEDPageTest extends TestBase {
 		testutilobj = new TestUtil();
 		//testutilobj.switchToEDWindow();
 		
+		fprptobj= new NDFlowPathReportPage();
+		
+		
 	}
 	
 	@Test(priority=1)
@@ -73,7 +79,7 @@ public class NetstormEDPageTest extends TestBase {
 	@Test(priority=2)
 	public void validateShowDashboardTest() {
 		
-		log.info("Started:validateEDPageTest TestCase-9");
+		log.info("Started:validateShowDashboardTest TestCase-9");
 		
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
@@ -85,14 +91,14 @@ public class NetstormEDPageTest extends TestBase {
 		//Switching Back to SessionPage
 		testutilobj.switchBackToParentWindow(parentwindow);
 		
-		log.info("Completed:validateEDPageTest TestCase-9");
+		log.info("Completed:validateShowDashboardTest TestCase-9");
 		
 		
 	}
 	
 	@Test(priority=3)
 	public void validateTierInfoTest() {
-		log.info("Started:validateEDPageTest TestCase-10");
+		log.info("Started:validateTierInfoTest TestCase-10");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
@@ -102,13 +108,13 @@ public class NetstormEDPageTest extends TestBase {
 		//Switching Back to SessionPage
 		testutilobj.switchBackToParentWindow(parentwindow);
 		
-		log.info("Completed:validateEDPageTest TestCase-11");
+		log.info("Completed:validateTierInfoTest TestCase-11");
 		
 	}
 	
 	@Test(priority=4)
 	public void overviewInTierInfoTest() {
-		log.info("Started:validateEDPageTest TestCase-11");
+		log.info("Started:overviewInTierInfoTest TestCase-11");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
@@ -119,14 +125,14 @@ public class NetstormEDPageTest extends TestBase {
 		testutilobj.switchBackToParentWindow(parentwindow);
 		
 		
-		log.info("Completed:validateEDPageTest TestCase-11");
+		log.info("Completed:overviewInTierInfoTest TestCase-11");
 		
 	}
 	
 	@Test(priority=5)
 	public void healthInTierInfoTest() {
 		
-		log.info("Started:validateEDPageTest TestCase-12");
+		log.info("Started:healthInTierInfoTest TestCase-12");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
@@ -135,7 +141,7 @@ public class NetstormEDPageTest extends TestBase {
 		
 		//Switching Back to SessionPage
 		testutilobj.switchBackToParentWindow(parentwindow);
-		log.info("Completed:validateEDPageTest TestCase-12");
+		log.info("Completed:healthInTierInfoTest TestCase-12");
 	}
 	
 	/*@Test(priority=6)
@@ -154,7 +160,7 @@ public class NetstormEDPageTest extends TestBase {
 	
 	@Test(priority=6)
 	public void tpsPopUpLabelTest() {
-		log.info("Started:validateEDPageTest TestCase-14");
+		log.info("Started:tpsPopUpLabelTest TestCase-14");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 	
@@ -163,13 +169,13 @@ public class NetstormEDPageTest extends TestBase {
 	
 		//Switching Back to SessionPage	
 		testutilobj.switchBackToParentWindow(parentwindow);
-		log.info("Completed:validateEDPageTest TestCase-14");
+		log.info("Completed:tpsPopUpLabelTest TestCase-14");
 		
 	}
 	
 	@Test(priority=7)
 	public void validateBtShowingInTpsTest() {
-		log.info("Started:validateEDPageTest TestCase-15");
+		log.info("Started:validateBtShowingInTpsTest TestCase-15");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
@@ -178,14 +184,14 @@ public class NetstormEDPageTest extends TestBase {
 		
 		//Switching Back to SessionPage	
 		testutilobj.switchBackToParentWindow(parentwindow);
-		log.info("Completed:validateEDPageTest TestCase-15");
+		log.info("Completed:validateBtShowingInTpsTest TestCase-15");
 		
 	}
 	
 	@Test(priority=8)
 	public void responsePopUpLabelTest() {
 		
-		log.info("Started:validateEDPageTest TestCase-16");
+		log.info("Started:responsePopUpLabelTest TestCase-16");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
@@ -194,16 +200,14 @@ public class NetstormEDPageTest extends TestBase {
 		
 		//Switching Back to SessionPage	
 		testutilobj.switchBackToParentWindow(parentwindow);
-		log.info("Completed:validateEDPageTest TestCase-16");
-		
-		
+		log.info("Completed:responsePopUpLabelTest TestCase-16");
 		
 	}
 	
 	@Test(priority=9)
 	public void validateBtShowingInResponseTest() {
 		
-		log.info("Started:validateEDPageTest TestCase-16");
+		log.info("Started:validateBtShowingInResponseTest TestCase-16");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 	
@@ -212,14 +216,14 @@ public class NetstormEDPageTest extends TestBase {
 		
 		//Switching Back to SessionPage	
 		testutilobj.switchBackToParentWindow(parentwindow);
-		log.info("Completed:validateEDPageTest TestCase-16");
+		log.info("Completed:validateBtShowingInResponseTest TestCase-16");
 	
 	}
 	
 	@Test(priority=10)
 	public void showFlowPathForSelectedTierTest() {
 		
-		log.info("Started:validateEDPageTest TestCase-17");
+		log.info("Started:showFlowPathForSelectedTierTest TestCase-17");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
@@ -227,9 +231,25 @@ public class NetstormEDPageTest extends TestBase {
 		
 		//Switching Back to SessionPage	
 		testutilobj.switchBackToParentWindow(parentwindow);
-		log.info("Completed:validateEDPageTest TestCase-17");
+		log.info("Completed:showFlowPathForSelectedTierTest TestCase-17");
 		
 	}
+	
+	@Test(priority=11)
+	public void validateFPReportByTierRightClickTest() {
+		log.info("Started:validateFPReportByTierRightClickTest TestCase-18");
+		//Switching to ED
+		
+		String parentwindow=testutilobj.switchToChildWindow();
+		
+		fprptobj=edpageobj.validateFPReportByTierRightClick();
+		
+		//Switching Back to SessionPage	
+		testutilobj.switchBackToParentWindow(parentwindow);
+		log.info("Completed:validateFPReportByTierRightClickTest TestCase-18");
+		
+	}
+	
 	@AfterMethod
 	public void tearDown() {
 		log.info("Called tearDown: Quiting driver");

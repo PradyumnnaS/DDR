@@ -89,6 +89,14 @@ public class NetstormEDPage extends TestBase{
 	
 	@FindBy(xpath="//a[@onclick=\"showFullFlowMap();\"]")
 	WebElement showfullfpmap;
+
+	// Drill Down options
+	
+	@FindBy(xpath="//div[contains(@id,'context-menu2')]//li//a[contains(text(), \"DrillDown\")]")
+	WebElement drilldown;
+	
+	@FindBy(xpath="//div[contains(@id,'context-menu2')]//a[contains(text(), \" Flowpaths By Response time\")]")
+	WebElement fpbyresp;
 	
 	//Initializing Page Factory
 	public NetstormEDPage() {
@@ -304,6 +312,30 @@ public class NetstormEDPage extends TestBase{
 		}else {
 			return false;
 		}
+		
+	}
+	
+	public NDFlowPathReportPage validateFPReportByTierRightClick() {
+		
+		//Opening Drop Down
+		TestUtil.openTierDropDownMenu(tierbox);
+		
+		//mouseHover to Drill down
+		
+		Actions action = new Actions(driver);
+		action.moveToElement(drilldown).build().perform();
+		
+		//Clicking on Flowpath By Response Time
+		fpbyresp.click();
+		
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return new NDFlowPathReportPage();
 		
 	}
 }

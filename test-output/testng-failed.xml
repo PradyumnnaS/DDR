@@ -6,8 +6,17 @@
       <class name="com.cavisson.ddr.testcases.NetstormEDPageTest">
         <methods>
           <include name="showFlowPathForSelectedTierTest"/>
+          <include name="validateShowDashboardTest"/>
+          <include name="healthInTierInfoTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="validateBtShowingInTpsTest"/>
+          <include name="responsePopUpLabelTest"/>
+          <include name="overviewInTierInfoTest"/>
+          <include name="validateTierInfoTest"/>
+          <include name="tpsPopUpLabelTest"/>
+          <include name="validateEDPageTest"/>
+          <include name="validateBtShowingInResponseTest"/>
         </methods>
       </class> <!-- com.cavisson.ddr.testcases.NetstormEDPageTest -->
     </classes>
