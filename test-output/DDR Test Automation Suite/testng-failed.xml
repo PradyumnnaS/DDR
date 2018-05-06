@@ -3,27 +3,11 @@
 <suite thread-count="-1" name="Failed suite [DDR Test Automation Suite]">
   <test name="Smoke DDR Test(failed)">
     <classes>
-      <class name="com.cavisson.ddr.testcases.NetstormHomePageTest">
-        <methods>
-          <include name="clickonSessionTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.cavisson.ddr.testcases.NetstormHomePageTest -->
       <class name="com.cavisson.ddr.testcases.NetstormEDPageTest">
         <methods>
           <include name="showFlowPathForSelectedTierTest"/>
-          <include name="validateShowDashboardTest"/>
-          <include name="healthInTierInfoTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="validateBtShowingInTpsTest"/>
-          <include name="responsePopUpLabelTest"/>
-          <include name="overviewInTierInfoTest"/>
-          <include name="validateTierInfoTest"/>
-          <include name="tpsPopUpLabelTest"/>
-          <include name="validateBtShowingInResponseTest"/>
-          <include name="validateFPReportByTierRightClickTest"/>
         </methods>
       </class> <!-- com.cavisson.ddr.testcases.NetstormEDPageTest -->
     </classes>
