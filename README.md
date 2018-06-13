@@ -1,1 +1,2 @@
-#DDR: This Project used for DDR automation
+#DDR: This Project used for DDR automation 
+#Adding comments
