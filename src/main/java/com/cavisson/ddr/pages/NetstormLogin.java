@@ -1,8 +1,11 @@
 package com.cavisson.ddr.pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.cavisson.ddr.base.TestBase;
 
@@ -55,6 +58,28 @@ public class NetstormLogin extends TestBase{
 		}
 		
 		netstormlogin.click();
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		// In 4.1.11 onwards because of ACL feature this pop up came
+		// If an user already logged and another want to login 
+		// then popup generated like
+		// "There is already one session running with the same user. 
+		//  Click Ok to forcefully logout other session and login"
+
+		try {
+			
+				driver.switchTo().alert();
+				Alert alert = driver.switchTo().alert();				
+				alert.accept();		
+		}catch(Exception e) {
+			
+		}
+		
 		
 		return new NetstormHomePage();
 	}	

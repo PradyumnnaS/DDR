@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-DDR_Test_Automation_Suite">
-              <span class="suite-name border-failed">DDR Test Automation Suite</span>
+              <span class="suite-name border-passed">DDR Test Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-DDR_Test_Automation_Suite" class="hide-methods failed suite-DDR_Test_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-DDR_Test_Automation_Suite -->
-                      <a href="#" panel-name="suite-DDR_Test_Automation_Suite" class="show-methods failed suite-DDR_Test_Automation_Suite"> (show)</a> <!-- show-methods failed suite-DDR_Test_Automation_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-DDR_Test_Automation_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-DDR_Test_Automation_Suite" title="com.cavisson.ddr.testcases.NetstormEDPageTest" hash-for-method="showFlowPathForSelectedTierTest">showFlowPathForSelectedTierTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-DDR_Test_Automation_Suite -->
+                    <span class="method-stats">18 methods,   18 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -147,6 +133,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-DDR_Test_Automation_Suite" title="com.cavisson.ddr.testcases.NetstormEDPageTest" hash-for-method="responsePopUpLabelTest">responsePopUpLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DDR_Test_Automation_Suite" title="com.cavisson.ddr.testcases.NetstormEDPageTest" hash-for-method="showFlowPathForSelectedTierTest">showFlowPathForSelectedTierTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -211,75 +202,24 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DDR_Test_Automation_Suite" class="panel DDR_Test_Automation_Suite">
-          <div class="suite-DDR_Test_Automation_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.cavisson.ddr.testcases.NetstormEDPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="showFlowPathForSelectedTierTest">
-                  </a> <!-- showFlowPathForSelectedTierTest -->
-                  <span class="method-name">showFlowPathForSelectedTierTest</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=63.0.3239.132)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-78-cavisson x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;netstorm-TECRA-C50-C&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-78-cavisson&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
-Session ID: bf33d08017537614d14ca7ea2c9f6ef2
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
-	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
-	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:73)
-	at org.openqa.selenium.interactions.DoubleClickAction.perform(DoubleClickAction.java:43)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
-	at com.cavisson.ddr.util.TestUtil.openTierDropDownMenu(TestUtil.java:68)
-	at com.cavisson.ddr.pages.NetstormEDPage.showFlowPathForSelectedTier(NetstormEDPage.java:307)
-	at com.cavisson.ddr.testcases.NetstormEDPageTest.showFlowPathForSelectedTierTest(NetstormEDPageTest.java:230)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-DDR_Test_Automation_Suite-class-failed -->
           <div class="suite-DDR_Test_Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.cavisson.ddr.testcases.NetstormHomePageTest</span>
+              <span class="class-name">com.cavisson.ddr.testcases.NetstormLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickonSessionTest">
-                  </a> <!-- clickonSessionTest -->
-                  <span class="method-name">clickonSessionTest</span>
+                  <a name="loginNetstormTest">
+                  </a> <!-- loginNetstormTest -->
+                  <span class="method-name">loginNetstormTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validateNetstormHomeTest">
-                  </a> <!-- validateNetstormHomeTest -->
-                  <span class="method-name">validateNetstormHomeTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateNetstormReleaseTest">
-                  </a> <!-- validateNetstormReleaseTest -->
-                  <span class="method-name">validateNetstormReleaseTest</span>
+                  <a name="loginNetstormTitletest">
+                  </a> <!-- loginNetstormTitletest -->
+                  <span class="method-name">loginNetstormTitletest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -309,6 +249,13 @@ Session ID: bf33d08017537614d14ca7ea2c9f6ef2
                   <a name="responsePopUpLabelTest">
                   </a> <!-- responsePopUpLabelTest -->
                   <span class="method-name">responsePopUpLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showFlowPathForSelectedTierTest">
+                  </a> <!-- showFlowPathForSelectedTierTest -->
+                  <span class="method-name">showFlowPathForSelectedTierTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -365,28 +312,6 @@ Session ID: bf33d08017537614d14ca7ea2c9f6ef2
           <div class="suite-DDR_Test_Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.cavisson.ddr.testcases.NetstormLoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginNetstormTest">
-                  </a> <!-- loginNetstormTest -->
-                  <span class="method-name">loginNetstormTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginNetstormTitletest">
-                  </a> <!-- loginNetstormTitletest -->
-                  <span class="method-name">loginNetstormTitletest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-DDR_Test_Automation_Suite-class-passed -->
-          <div class="suite-DDR_Test_Automation_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.cavisson.ddr.testcases.NetstormSessionPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -406,6 +331,35 @@ Session ID: bf33d08017537614d14ca7ea2c9f6ef2
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-DDR_Test_Automation_Suite-class-passed -->
+          <div class="suite-DDR_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cavisson.ddr.testcases.NetstormHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonSessionTest">
+                  </a> <!-- clickonSessionTest -->
+                  <span class="method-name">clickonSessionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNetstormHomeTest">
+                  </a> <!-- validateNetstormHomeTest -->
+                  <span class="method-name">validateNetstormHomeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNetstormReleaseTest">
+                  </a> <!-- validateNetstormReleaseTest -->
+                  <span class="method-name">validateNetstormReleaseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DDR_Test_Automation_Suite-class-passed -->
         </div> <!-- panel DDR_Test_Automation_Suite -->
         <div panel-name="test-xml-DDR_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -416,6 +370,9 @@ Session ID: bf33d08017537614d14ca7ea2c9f6ef2
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;-1&quot; name=&quot;DDR Test Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.cavisson.ddr.extendreportlistener.ExtendReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test name=&quot;Smoke DDR Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.cavisson.ddr.testcases.NetstormLoginTest&quot;/&gt;
@@ -465,80 +422,80 @@ data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateFPReportByTierRightClickTest')
 data.setCell(0, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(0, 3, 7842);
+data.setCell(0, 3, 6407);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickonSessionTest')
-data.setCell(1, 2, 'com.cavisson.ddr.testcases.NetstormHomePageTest')
-data.setCell(1, 3, 4760);
+data.setCell(1, 1, 'overviewInTierInfoTest')
+data.setCell(1, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
+data.setCell(1, 3, 4316);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateShowDashboardTest')
-data.setCell(2, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(2, 3, 4508);
+data.setCell(2, 1, 'clickonEDLinkTest')
+data.setCell(2, 2, 'com.cavisson.ddr.testcases.NetstormSessionPageTest')
+data.setCell(2, 3, 4106);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateNetstormHomeTest')
-data.setCell(3, 2, 'com.cavisson.ddr.testcases.NetstormHomePageTest')
-data.setCell(3, 3, 4164);
+data.setCell(3, 1, 'healthInTierInfoTest')
+data.setCell(3, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
+data.setCell(3, 3, 3955);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'clickonEDLinkTest')
-data.setCell(4, 2, 'com.cavisson.ddr.testcases.NetstormSessionPageTest')
-data.setCell(4, 3, 3942);
+data.setCell(4, 1, 'validateShowDashboardTest')
+data.setCell(4, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
+data.setCell(4, 3, 3636);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'validateTierInfoTest')
 data.setCell(5, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(5, 3, 3048);
+data.setCell(5, 3, 2687);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateNetstormReleaseTest')
-data.setCell(6, 2, 'com.cavisson.ddr.testcases.NetstormHomePageTest')
-data.setCell(6, 3, 2895);
+data.setCell(6, 1, 'showFlowPathForSelectedTierTest')
+data.setCell(6, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
+data.setCell(6, 3, 2406);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'overviewInTierInfoTest')
+data.setCell(7, 1, 'tpsPopUpLabelTest')
 data.setCell(7, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(7, 3, 2825);
+data.setCell(7, 3, 2144);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'healthInTierInfoTest')
+data.setCell(8, 1, 'validateBtShowingInResponseTest')
 data.setCell(8, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(8, 3, 2694);
+data.setCell(8, 3, 2029);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'responsePopUpLabelTest')
 data.setCell(9, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(9, 3, 2157);
+data.setCell(9, 3, 2011);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'validateBtShowingInTpsTest')
 data.setCell(10, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(10, 3, 2091);
+data.setCell(10, 3, 1946);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'validateBtShowingInResponseTest')
+data.setCell(11, 1, 'validateEDPageTest')
 data.setCell(11, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(11, 3, 2078);
+data.setCell(11, 3, 1825);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'tpsPopUpLabelTest')
-data.setCell(12, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(12, 3, 1966);
+data.setCell(12, 1, 'loginNetstormTest')
+data.setCell(12, 2, 'com.cavisson.ddr.testcases.NetstormLoginTest')
+data.setCell(12, 3, 1602);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'showFlowPathForSelectedTierTest')
-data.setCell(13, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(13, 3, 1933);
+data.setCell(13, 1, 'clickonSessionTest')
+data.setCell(13, 2, 'com.cavisson.ddr.testcases.NetstormHomePageTest')
+data.setCell(13, 3, 401);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'validateEDPageTest')
-data.setCell(14, 2, 'com.cavisson.ddr.testcases.NetstormEDPageTest')
-data.setCell(14, 3, 1449);
+data.setCell(14, 1, 'validateSessionPageTest')
+data.setCell(14, 2, 'com.cavisson.ddr.testcases.NetstormSessionPageTest')
+data.setCell(14, 3, 133);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'loginNetstormTest')
-data.setCell(15, 2, 'com.cavisson.ddr.testcases.NetstormLoginTest')
-data.setCell(15, 3, 1081);
+data.setCell(15, 1, 'validateNetstormHomeTest')
+data.setCell(15, 2, 'com.cavisson.ddr.testcases.NetstormHomePageTest')
+data.setCell(15, 3, 93);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'validateSessionPageTest')
-data.setCell(16, 2, 'com.cavisson.ddr.testcases.NetstormSessionPageTest')
-data.setCell(16, 3, 88);
+data.setCell(16, 1, 'validateNetstormReleaseTest')
+data.setCell(16, 2, 'com.cavisson.ddr.testcases.NetstormHomePageTest')
+data.setCell(16, 3, 59);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'loginNetstormTitletest')
 data.setCell(17, 2, 'com.cavisson.ddr.testcases.NetstormLoginTest')
-data.setCell(17, 3, 20);
+data.setCell(17, 3, 29);
 window.suiteTableData['DDR_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-DDR_Test_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-DDR_Test_Automation_Suite">
               </div> <!-- times-div-DDR_Test_Automation_Suite -->
             </div> <!-- times-div -->
@@ -571,244 +528,242 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginNetstormTitletest</span>
-                <span class="method-start">10461 ms</span>
+                <span class="method-start">6973 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10503 ms</span>
+                <span class="method-start">7004 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormHomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">10756 ms</span>
+                <span class="method-start">7085 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateNetstormHomeTest</span>
-                <span class="method-start">25075 ms</span>
+                <span class="method-start">16418 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29242 ms</span>
+                <span class="method-start">16514 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormSessionPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">29523 ms</span>
+                <span class="method-start">16588 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateSessionPageTest</span>
-                <span class="method-start">43381 ms</span>
+                <span class="method-start">26845 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">43470 ms</span>
+                <span class="method-start">26979 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormEDPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">43556 ms</span>
+                <span class="method-start">27056 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateEDPageTest</span>
-                <span class="method-start">59956 ms</span>
+                <span class="method-start">41279 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">61409 ms</span>
+                <span class="method-start">43108 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">61505 ms</span>
+                <span class="method-start">43350 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginNetstormTest</span>
-                <span class="method-start">67886 ms</span>
+                <span class="method-start">49234 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">68971 ms</span>
+                <span class="method-start">50840 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormHomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">69042 ms</span>
+                <span class="method-start">50929 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateNetstormReleaseTest</span>
-                <span class="method-start">77784 ms</span>
+                <span class="method-start">60907 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">80681 ms</span>
+                <span class="method-start">60967 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormSessionPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">80758 ms</span>
+                <span class="method-start">61021 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickonEDLinkTest</span>
-                <span class="method-start">92517 ms</span>
+                <span class="method-start">71108 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">96461 ms</span>
+                <span class="method-start">75215 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormEDPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">96683 ms</span>
+                <span class="method-start">75354 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateShowDashboardTest</span>
-                <span class="method-start">112503 ms</span>
+                <span class="method-start">89694 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">117012 ms</span>
+                <span class="method-start">93331 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormHomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">117085 ms</span>
+                <span class="method-start">93409 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickonSessionTest</span>
-                <span class="method-start">127156 ms</span>
+                <span class="method-start">102752 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">131917 ms</span>
+                <span class="method-start">103155 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cavisson.ddr.testcases.NetstormEDPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">131990 ms</span>
+                <span class="method-start">103227 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTierInfoTest</span>
-                <span class="method-start">148454 ms</span>
+                <span class="method-start">117264 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">151505 ms</span>
+                <span class="method-start">119958 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">151578 ms</span>
+                <span class="method-start">120095 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">overviewInTierInfoTest</span>
-                <span class="method-start">167926 ms</span>
+                <span class="method-start">134378 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">170752 ms</span>
+                <span class="method-start">138695 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">170822 ms</span>
+                <span class="method-start">138773 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">healthInTierInfoTest</span>
-                <span class="method-start">187606 ms</span>
+                <span class="method-start">152715 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">190301 ms</span>
+                <span class="method-start">156672 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">190375 ms</span>
+                <span class="method-start">156741 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tpsPopUpLabelTest</span>
-                <span class="method-start">206019 ms</span>
+                <span class="method-start">173085 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">207986 ms</span>
+                <span class="method-start">175230 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">208061 ms</span>
+                <span class="method-start">175302 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateBtShowingInTpsTest</span>
-                <span class="method-start">223783 ms</span>
+                <span class="method-start">189441 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">225875 ms</span>
+                <span class="method-start">191387 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">225942 ms</span>
+                <span class="method-start">191528 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">responsePopUpLabelTest</span>
-                <span class="method-start">241387 ms</span>
+                <span class="method-start">205195 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">243545 ms</span>
+                <span class="method-start">207207 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">243615 ms</span>
+                <span class="method-start">207284 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateBtShowingInResponseTest</span>
-                <span class="method-start">259155 ms</span>
+                <span class="method-start">221833 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">261236 ms</span>
+                <span class="method-start">223866 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">261827 ms</span>
+                <span class="method-start">223937 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">showFlowPathForSelectedTierTest</span>
-                <span class="method-start">278612 ms</span>
+                <span class="method-start">237707 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">280658 ms</span>
+                <span class="method-start">240114 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">280804 ms</span>
+                <span class="method-start">240183 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFPReportByTierRightClickTest</span>
-                <span class="method-start">296526 ms</span>
+                <span class="method-start">254168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">304373 ms</span>
+                <span class="method-start">260576 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -49,7 +49,7 @@ public class NetstormSessionPageTest extends TestBase{
 	public void validateSessionPageTest() {
 		log.info("Started:validateSessionPageTest TestCase-6");
 		String sessionpagelabel=sessionpageobj.validateSessionPage();
-		Assert.assertEquals(sessionpagelabel, "Session Number", "User not in SessionPage");
+		Assert.assertEquals(sessionpagelabel, "Test Name", "User not in SessionPage");
 		log.info("Completed:validateSessionPageTest TestCase-6");
 	}
 	

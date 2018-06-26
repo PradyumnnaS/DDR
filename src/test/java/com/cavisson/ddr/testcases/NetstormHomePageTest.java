@@ -1,6 +1,7 @@
 package com.cavisson.ddr.testcases;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -48,8 +49,9 @@ public class NetstormHomePageTest extends TestBase{
 	@Test(priority=1)
 	public void validateNetstormHomeTest() {
 		log.info("Started:validateNetstormHomeTest TestCase-3");
-		String homepagelabel= homepageobj.validateNetstormHome();
-		Assert.assertEquals(homepagelabel, "Cavisson", "User not in Home Page");
+		boolean homepagelabel= homepageobj.validateNetstormHome();
+		
+		Assert.assertTrue(homepagelabel, "User not in Home Page");
 		log.info("Completed:validateNetstormHomeTest TestCase-3");
 	}
 	

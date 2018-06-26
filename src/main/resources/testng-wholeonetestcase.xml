@@ -7,7 +7,7 @@
   </listeners>  
   -->
     <classes>
-      <class name="com.cavisson.ddr.testcases.NetstormEDPageTest"></class>
+      <class name="com.cavisson.ddr.testcases.NetstormLoginTest"></class>
     </classes>
  </test>
 </suite>

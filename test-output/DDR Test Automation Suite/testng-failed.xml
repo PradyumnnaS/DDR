@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" name="Failed suite [DDR Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.cavisson.ddr.extendreportlistener.ExtendReportListener"/>
+  </listeners>
   <test name="Smoke DDR Test(failed)">
     <classes>
       <class name="com.cavisson.ddr.testcases.NetstormEDPageTest">
         <methods>
-          <include name="showFlowPathForSelectedTierTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="responsePopUpLabelTest"/>
+          <include name="validateFPReportByTierRightClickTest"/>
         </methods>
       </class> <!-- com.cavisson.ddr.testcases.NetstormEDPageTest -->
     </classes>

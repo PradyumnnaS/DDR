@@ -1,5 +1,6 @@
 package com.cavisson.ddr.testcases;
 
+
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -9,7 +10,7 @@ import org.testng.annotations.Test;
 import com.cavisson.ddr.base.TestBase;
 import com.cavisson.ddr.pages.NetstormHomePage;
 import com.cavisson.ddr.pages.NetstormLogin;
-import com.cavisson.ddr.util.RetryAnalyzer;
+
 
 public class NetstormLoginTest extends TestBase{
 
@@ -29,6 +30,7 @@ public class NetstormLoginTest extends TestBase{
 	public void setUp() {
 		
 		log.info("Called setUp method");
+		
 		initialized();
 		log.info("Called initialized method from NetstormLoginTest");
 		
@@ -41,12 +43,16 @@ public class NetstormLoginTest extends TestBase{
 		log.info("Started:loginNetstormTitletest TestCase-1");
 		
 		String netstormlogintitile = loginobj.loginNetstormTitle();
-		Assert.assertEquals(netstormlogintitile, "Cavisson NetDiagnostics Enterprise","User Not in Netstorm Login page");
+		
+		if (! netstormlogintitile.startsWith("Cavisson NetDiagnostics Enterprise")) {
+			Assert.assertTrue(false);
+			log.info("Netstorm Title Test Falied: User Not in Login Page");
+		}
 		
 		log.info("Completed:loginNetstormTitletest TestCase-1");
 	}
 	
-	@Test(priority=2, retryAnalyzer =RetryAnalyzer.class)
+	@Test(priority=2)
 	public void loginNetstormTest() {
 		log.info("Started:loginNetstormTest TestCase-2");
 		

@@ -12,7 +12,7 @@ import com.cavisson.ddr.base.TestBase;
 public class NetstormSessionPage extends TestBase{
 
 	//Page Factory for SessionPage
-	@FindBy(xpath="//span[contains(text(),\"Session Number\")]")
+	@FindBy(xpath="//span[contains(text(),\"Test Name\")]")
 	WebElement sessionlabel;
 	
 	@FindBy(xpath="//label[contains(text(),'Search')]/parent::div/following-sibling::div/input[@type='text']")
@@ -27,7 +27,7 @@ public class NetstormSessionPage extends TestBase{
 	@FindBy(xpath="//li/span[contains(text(), \"All\")]")
 	WebElement selectAlllabel;
 	
-	@FindBy(xpath="//span[contains(text(), \"Apply\")]/parent::button[@style='margin-left: 3%; margin-top: 9%']")
+	@FindBy(xpath="//span[contains(text(), \"Apply\")]/parent::button[@class=\"ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only\"]")
 	WebElement applybtn;
 	
 	@FindBy(xpath="//td//span/parent::a/parent::span/parent::td/preceding-sibling::td//span[contains(@class,'ui-chkbox-icon ui-clickable')]")
