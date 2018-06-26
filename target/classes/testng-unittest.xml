@@ -9,7 +9,7 @@
     <classes>
       <class name="com.cavisson.ddr.testcases.NetstormEDPageTest">
       	<methods>
-      		<include name="validateFPReportByTierRightClickTest"></include>
+      		<include name="responsePopUpLabelTest"></include>
       	</methods>
       </class>
     </classes>

@@ -55,10 +55,10 @@ public class NetstormEDPage extends TestBase{
 	
 	//Top 10 Transactions TPS Page Object
 	
-	@FindBy(xpath="//div[@id='context-menu2']//a[contains(text(), 'Top 10 Transactions By')]")
+	@FindBy(xpath="//div[@id='context-menu1']//a[contains(text(), 'Top 10 Transactions By')]")
 	WebElement top10trxbyatgtier;
 	
-	@FindBy(xpath="//div[@id='context-menu2']//a[contains(text(), 'Top 10 Transactions By')]/parent::li//ul//li/a[contains(text(), 'TPS')]")
+	@FindBy(xpath="//div[@id='context-menu1']//a[contains(text(), 'Top 10 Transactions By')]/parent::li//ul//li/a[contains(text(), 'TPS')]")
 	WebElement tpslink;
 	
 	@FindBy(xpath="//div//span[contains(text(), \"Top 10 TPS\")]")
@@ -72,7 +72,7 @@ public class NetstormEDPage extends TestBase{
 	
 	//Top 10 Transactions Response Response Page
 	
-	@FindBy(xpath="//div[@id='context-menu2']//a[contains(text(), 'Top 10 Transactions By')]/parent::li//ul//li/a[contains(text(), 'Response')]")
+	@FindBy(xpath="//div[@id='context-menu1']//a[contains(text(), 'Top 10 Transactions By')]/parent::li//ul//li/a[contains(text(), 'Response')]")
 	WebElement responselink;
 	
 	@FindBy(xpath="//div//span[contains(text(), \"Top 10 Response\")]")
@@ -92,10 +92,10 @@ public class NetstormEDPage extends TestBase{
 
 	// Drill Down options
 	
-	@FindBy(xpath="//div[contains(@id,'context-menu2')]//li//a[contains(text(), \"DrillDown\")]")
+	@FindBy(xpath="//div[contains(@id,'context-menu1')]//li//a[contains(text(), \"DrillDown\")]")
 	WebElement drilldown;
 	
-	@FindBy(xpath="//div[contains(@id,'context-menu2')]//a[contains(text(), \" Flowpaths By Response time\")]")
+	@FindBy(xpath="//div[contains(@id,'context-menu1')]//a[contains(text(), \" Flowpaths By Response time\")]")
 	WebElement fpbyresp;
 	
 	//Initializing Page Factory

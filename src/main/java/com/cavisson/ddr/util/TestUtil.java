@@ -64,6 +64,8 @@ public class TestUtil extends TestBase {
 	// This method requried a webelement as an argument to perform the required operation.
 	
 	public static void openTierDropDownMenu(WebElement tierbox){
+		
+		
 		Actions action = new Actions(driver);
 		action.doubleClick(tierbox).build().perform();
 						

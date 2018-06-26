@@ -29,13 +29,13 @@ public class NetstormHomePage extends TestBase{
 	
 	WebElement closedashboardtb;
 	
-	@FindBy(xpath="//span[text()=\"Cavisson\"]")
+	@FindBy(xpath="//a[@href=\"#/home\"]")
 	WebElement netstormhomepglabel;
 	
 	@FindBy(xpath="//span[contains(text(), \"Release -\")]")
 	WebElement netstormrelease;
 	
-	@FindBy(xpath="//button[@class= 'mat-icon-button']//i[@class='icon produi-icon-sessionpacing']")
+	@FindBy(xpath="//button[@class= 'mat-icon-button']//i[@class='icon produi-icon-tr']")
 	WebElement sessionlnk;
 	
 	//Initialization of PageFactory
@@ -46,11 +46,11 @@ public class NetstormHomePage extends TestBase{
 	//Actions to be taken in HomePage
 	
 	
-	public String validateNetstormHome() {
+	public boolean validateNetstormHome() {
 		
 		//System.out.println("errorpopup" + errorpopup.isDisplayed());
 		//System.out.println("errorpopup1" + errorpopup1.isDisplayed());
-		try {
+		/*try {
 			
 			if (errorpopup.isDisplayed()) {
 				//System.out.println("errorpopup" + errorpopup.isDisplayed());
@@ -65,15 +65,18 @@ public class NetstormHomePage extends TestBase{
 			}
 		}
 		
+		*/
 		
-		return netstormhomepglabel.getText();
+		return netstormhomepglabel.isDisplayed();
 	}
 	
 	public String validateNetstormRelease() {
 		
+		/*
 		try {
 			
-			if (errorpopup.isDisplayed()) {
+			
+			 if (errorpopup.isDisplayed()) {
 				//System.out.println("errorpopup" + errorpopup.isDisplayed());
 				TestUtil.disablErrorPopupanddashboardtab(closeerrpopup, closedashboardtb);
 			}
@@ -85,11 +88,14 @@ public class NetstormHomePage extends TestBase{
 				TestUtil.disablErrorPopupanddashboardtab(closeerrpopup, closedashboardtb);
 			}
 		}
+		*/
+		
 		return netstormrelease.getText();
 	}
 	
 	public NetstormSessionPage clickOnSessionLink() {
 		
+		/*
 		try {
 			
 			if (errorpopup.isDisplayed()) {
@@ -104,6 +110,8 @@ public class NetstormHomePage extends TestBase{
 				TestUtil.disablErrorPopupanddashboardtab(closeerrpopup, closedashboardtb);
 			}
 		}
+		
+		*/
 		
 		sessionlnk.click();
 		return new NetstormSessionPage();
