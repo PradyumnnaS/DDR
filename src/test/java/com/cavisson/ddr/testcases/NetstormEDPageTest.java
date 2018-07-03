@@ -58,7 +58,7 @@ public class NetstormEDPageTest extends TestBase {
 	}
 	
 	@Test(priority=1)
-	public void validateEDPageTest() {
+	public void titleOfExecutiveDashboardTest() {
 		
 		log.info("Started:validateEDPageTest TestCase-8");
 		
@@ -66,7 +66,7 @@ public class NetstormEDPageTest extends TestBase {
 		//driver.switchTo().window(childwindow);
 		String parentwindow=testutilobj.switchToChildWindow();
 
-		String edhomepagecheck= edpageobj.validateEDPage();
+		String edhomepagecheck= edpageobj.titleOfExecutiveDashboard();
 		Assert.assertEquals(edhomepagecheck, "Executive Dashboard", "Failed:User not present in Executive Dashboard Page");
 		
 		//Switching Back to SessionPage
@@ -77,16 +77,16 @@ public class NetstormEDPageTest extends TestBase {
 	}
 	
 	@Test(priority=2)
-	public void validateShowDashboardTest() {
+	public void showDashboardInEDTest() {
 		
 		log.info("Started:validateShowDashboardTest TestCase-9");
 		
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
-		boolean showdashboardlabelcheck=edpageobj.validateShowDashboard();
+		boolean showdashboardlabelcheck=edpageobj.showDashboardInED();
 		
-		Assert.assertTrue(showdashboardlabelcheck, "Failed: ShowDashboard Tab is not showing");
+		Assert.assertTrue(showdashboardlabelcheck, "Failed: Show Dashboard is not showing");
 
 		//Switching Back to SessionPage
 		testutilobj.switchBackToParentWindow(parentwindow);
@@ -97,12 +97,12 @@ public class NetstormEDPageTest extends TestBase {
 	}
 	
 	@Test(priority=3)
-	public void validateTierInfoTest() {
+	public void tierInfoInEDTest() {
 		log.info("Started:validateTierInfoTest TestCase-10");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
-		String tierinfolabel = edpageobj.validateTierInfo();
+		String tierinfolabel = edpageobj.tierInfoInED();
 		Assert.assertEquals(tierinfolabel, "Tier Info", "Failed: Tier Info PopUp Label changed or it is not opening");
 		
 		//Switching Back to SessionPage
@@ -159,12 +159,12 @@ public class NetstormEDPageTest extends TestBase {
 	}*/
 	
 	@Test(priority=6)
-	public void tpsPopUpLabelTest() {
+	public void top10TPSPopUpLabelTest() {
 		log.info("Started:tpsPopUpLabelTest TestCase-14");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 	
-		String tpslabel = edpageobj.tpsPopUpLabel();
+		String tpslabel = edpageobj.top10TPSPopUpLabel();
 		Assert.assertEquals(tpslabel, "Top 10 TPS", "Failed: TPS PopUp Label changed or popup is not displaying");
 	
 		//Switching Back to SessionPage	
@@ -174,12 +174,12 @@ public class NetstormEDPageTest extends TestBase {
 	}
 	
 	@Test(priority=7)
-	public void validateBtShowingInTpsTest() {
+	public void btShowingInTop10TpsTest() {
 		log.info("Started:validateBtShowingInTpsTest TestCase-15");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
-		Boolean btintps = edpageobj.validateBtShowingInTps();
+		Boolean btintps = edpageobj.btShowingInTop10Tps();
 		Assert.assertTrue(btintps, "Failed: TPS Tab is not showing any Business Transction / Business Transaction exceeds more then 10 count");
 		
 		//Switching Back to SessionPage	
@@ -189,13 +189,13 @@ public class NetstormEDPageTest extends TestBase {
 	}
 	
 	@Test(priority=8)
-	public void responsePopUpLabelTest() {
+	public void top10ResponsePopUpLabelTest() {
 		
 		log.info("Started:responsePopUpLabelTest TestCase-16");
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 		
-		String responselabel = edpageobj.responsePopUpLabel();
+		String responselabel = edpageobj.top10ResponsePopUpLabel();
 		Assert.assertEquals(responselabel, "Top 10 Response", "Failed: Response PopUp Label changed or popup is not displaying");
 		
 		//Switching Back to SessionPage	
@@ -211,7 +211,7 @@ public class NetstormEDPageTest extends TestBase {
 		//Switching to ED
 		String parentwindow=testutilobj.switchToChildWindow();
 	
-		Boolean btintps = edpageobj.validateBtShowingInTps();
+		Boolean btintps = edpageobj.btShowingInTop10Tps();
 		Assert.assertTrue(btintps, "Failed: Response Tab is not showing any Business Transction / Business Transaction exceeds more then 10 count");
 		
 		//Switching Back to SessionPage	
@@ -236,17 +236,22 @@ public class NetstormEDPageTest extends TestBase {
 	}
 	
 	@Test(priority=11)
-	public void validateFPReportByTierRightClickTest() {
+	public void flowpathByResponseTimefromTierDrillDownTest() {
 		log.info("Started:validateFPReportByTierRightClickTest TestCase-18");
 		//Switching to ED
 		
 		String parentwindow=testutilobj.switchToChildWindow();
 		
-		fprptobj=edpageobj.validateFPReportByTierRightClick();
+		fprptobj=edpageobj.flowpathByResponseTimefromTierDrillDown();
 		
 		//Switching Back to SessionPage	
 		testutilobj.switchBackToParentWindow(parentwindow);
 		log.info("Completed:validateFPReportByTierRightClickTest TestCase-18");
+		
+	}
+	
+	@Test(priority=12)
+	public void flowpathByCallOutErrorfromTierDrillDown() {
 		
 	}
 	

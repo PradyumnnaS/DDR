@@ -1,0 +1,146 @@
+2018-07-03 12:06:23,820  INFO [main] NetstormEDPageTest:31 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-07-03 12:06:23,932  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:06:23,932  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:06:32,675  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:06:32,675  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:06:40,654  INFO [main] NetstormEDPageTest:240 - Started:validateFPReportByTierRightClickTest TestCase-18
+2018-07-03 12:06:47,004  INFO [main] NetstormEDPageTest:249 - Completed:validateFPReportByTierRightClickTest TestCase-18
+2018-07-03 12:06:47,013  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:11:01,391  INFO [main] NetstormEDPageTest:31 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-07-03 12:11:01,508  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:11:01,508  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:11:10,001  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:11:10,001  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:11:18,026  INFO [main] NetstormEDPageTest:240 - Started:validateFPReportByTierRightClickTest TestCase-18
+2018-07-03 12:11:25,637  INFO [main] NetstormEDPageTest:249 - Completed:validateFPReportByTierRightClickTest TestCase-18
+2018-07-03 12:11:25,641  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:12:26,263  INFO [main] NetstormLoginTest:26 - Called Super class constructor TestBase from NetstormLoginTest
+2018-07-03 12:12:26,290  INFO [main] NetstormHomePageTest:28 - Called Super class constructor TestBase from NetstormHomePageTest
+2018-07-03 12:12:26,298  INFO [main] NetstormSessionPageTest:26 - Called Super class constructor TestBase from NetstormSessionPageTest
+2018-07-03 12:12:26,303  INFO [main] NetstormEDPageTest:31 - Called Super class constructor TestBase from NetstormEDPageTest
+2018-07-03 12:12:26,374  INFO [main] NetstormLoginTest:32 - Called setUp method
+2018-07-03 12:12:26,375  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:12:34,166  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:12:34,166  INFO [main] NetstormLoginTest:35 - Called initialized method from NetstormLoginTest
+2018-07-03 12:12:34,224  INFO [main] NetstormLoginTest:43 - Started:loginNetstormTitletest TestCase-1
+2018-07-03 12:12:34,250  INFO [main] NetstormLoginTest:52 - Completed:loginNetstormTitletest TestCase-1
+2018-07-03 12:12:34,253  INFO [main] NetstormLoginTest:67 - Called tearDown: Quiting driver
+2018-07-03 12:12:34,340  INFO [main] NetstormHomePageTest:33 - Called setUp method
+2018-07-03 12:12:34,340  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:12:41,694  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:12:41,695  INFO [main] NetstormHomePageTest:35 - Called initialized method from NetstormHomePageTest
+2018-07-03 12:12:45,373  INFO [main] NetstormHomePageTest:51 - Started:validateNetstormHomeTest TestCase-3
+2018-07-03 12:12:45,465  INFO [main] NetstormHomePageTest:55 - Completed:validateNetstormHomeTest TestCase-3
+2018-07-03 12:12:45,467  INFO [main] NetstormHomePageTest:75 - Called tearDown: Quiting driver
+2018-07-03 12:12:45,546  INFO [main] NetstormSessionPageTest:31 - Called setUp method
+2018-07-03 12:12:45,546  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:12:52,714  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:12:52,715  INFO [main] NetstormSessionPageTest:33 - Called initialized method from NetstormSessionPageTest
+2018-07-03 12:12:56,644  INFO [main] NetstormSessionPageTest:50 - Started:validateSessionPageTest TestCase-6
+2018-07-03 12:12:56,722  INFO [main] NetstormSessionPageTest:53 - Completed:validateSessionPageTest TestCase-6
+2018-07-03 12:12:56,724  INFO [main] NetstormSessionPageTest:65 - Called tearDown: Quiting driver
+2018-07-03 12:12:56,803  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:12:56,803  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:13:03,973  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:13:03,974  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:13:12,009  INFO [main] NetstormEDPageTest:63 - Started:validateEDPageTest TestCase-8
+2018-07-03 12:13:13,176  INFO [main] NetstormEDPageTest:76 - Completed:validateEDPageTest TestCase-8
+2018-07-03 12:13:13,178  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:13:13,254  INFO [main] NetstormLoginTest:32 - Called setUp method
+2018-07-03 12:13:13,254  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:13:20,354  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:13:20,357  INFO [main] NetstormLoginTest:35 - Called initialized method from NetstormLoginTest
+2018-07-03 12:13:20,361  INFO [main] NetstormLoginTest:57 - Started:loginNetstormTest TestCase-2
+2018-07-03 12:13:21,934  INFO [main] NetstormLoginTest:61 - Completed:loginNetstormTest TestCase-2
+2018-07-03 12:13:21,936  INFO [main] NetstormLoginTest:67 - Called tearDown: Quiting driver
+2018-07-03 12:13:22,014  INFO [main] NetstormHomePageTest:33 - Called setUp method
+2018-07-03 12:13:22,014  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:13:29,266  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:13:29,266  INFO [main] NetstormHomePageTest:35 - Called initialized method from NetstormHomePageTest
+2018-07-03 12:13:33,204  INFO [main] NetstormHomePageTest:60 - Started:validateNetstormReleaseTest TestCase-4
+2018-07-03 12:13:33,273  INFO [main] NetstormHomePageTest:63 - Completed:validateNetstormReleaseTest TestCase-4
+2018-07-03 12:13:33,275  INFO [main] NetstormHomePageTest:75 - Called tearDown: Quiting driver
+2018-07-03 12:13:33,363  INFO [main] NetstormSessionPageTest:31 - Called setUp method
+2018-07-03 12:13:33,363  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:13:40,696  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:13:40,696  INFO [main] NetstormSessionPageTest:33 - Called initialized method from NetstormSessionPageTest
+2018-07-03 12:13:44,734  INFO [main] NetstormSessionPageTest:58 - Started:clickonEDLinkTest TestCase-7
+2018-07-03 12:13:48,640  INFO [main] NetstormSessionPageTest:60 - Completed:clickonEDLinkTest TestCase-7
+2018-07-03 12:13:48,642  INFO [main] NetstormSessionPageTest:65 - Called tearDown: Quiting driver
+2018-07-03 12:13:48,825  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:13:48,826  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:13:55,950  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:13:55,951  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:14:03,761  INFO [main] NetstormEDPageTest:82 - Started:validateShowDashboardTest TestCase-9
+2018-07-03 12:14:06,319  INFO [main] NetstormEDPageTest:94 - Completed:validateShowDashboardTest TestCase-9
+2018-07-03 12:14:06,332  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:14:06,411  INFO [main] NetstormHomePageTest:33 - Called setUp method
+2018-07-03 12:14:06,411  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:14:13,323  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:14:13,323  INFO [main] NetstormHomePageTest:35 - Called initialized method from NetstormHomePageTest
+2018-07-03 12:14:16,901  INFO [main] NetstormHomePageTest:68 - Started:clickonSessionTest TestCase-5
+2018-07-03 12:14:17,278  INFO [main] NetstormHomePageTest:70 - Completed:clickonSessionTest TestCase-5
+2018-07-03 12:14:17,281  INFO [main] NetstormHomePageTest:75 - Called tearDown: Quiting driver
+2018-07-03 12:14:17,354  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:14:17,354  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:14:24,413  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:14:24,414  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:14:32,338  INFO [main] NetstormEDPageTest:101 - Started:validateTierInfoTest TestCase-10
+2018-07-03 12:14:34,698  INFO [main] NetstormEDPageTest:111 - Completed:validateTierInfoTest TestCase-11
+2018-07-03 12:14:34,702  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:14:34,824  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:14:34,825  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:14:42,213  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:14:42,214  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:14:50,083  INFO [main] NetstormEDPageTest:117 - Started:overviewInTierInfoTest TestCase-11
+2018-07-03 12:14:52,562  INFO [main] NetstormEDPageTest:128 - Completed:overviewInTierInfoTest TestCase-11
+2018-07-03 12:14:52,564  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:14:52,638  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:14:52,638  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:14:59,679  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:14:59,680  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:15:07,759  INFO [main] NetstormEDPageTest:135 - Started:healthInTierInfoTest TestCase-12
+2018-07-03 12:15:10,876  INFO [main] NetstormEDPageTest:144 - Completed:healthInTierInfoTest TestCase-12
+2018-07-03 12:15:10,878  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:15:10,952  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:15:10,953  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:15:18,615  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:15:18,615  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:15:26,549  INFO [main] NetstormEDPageTest:163 - Started:tpsPopUpLabelTest TestCase-14
+2018-07-03 12:15:28,404  INFO [main] NetstormEDPageTest:172 - Completed:tpsPopUpLabelTest TestCase-14
+2018-07-03 12:15:28,405  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:15:28,479  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:15:28,479  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:15:35,317  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:15:35,317  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:15:43,177  INFO [main] NetstormEDPageTest:178 - Started:validateBtShowingInTpsTest TestCase-15
+2018-07-03 12:15:45,264  INFO [main] NetstormEDPageTest:187 - Completed:validateBtShowingInTpsTest TestCase-15
+2018-07-03 12:15:45,265  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:15:45,340  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:15:45,340  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:15:52,204  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:15:52,204  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:16:00,255  INFO [main] NetstormEDPageTest:194 - Started:responsePopUpLabelTest TestCase-16
+2018-07-03 12:16:02,233  INFO [main] NetstormEDPageTest:203 - Completed:responsePopUpLabelTest TestCase-16
+2018-07-03 12:16:02,237  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:16:02,313  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:16:02,313  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:16:08,920  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:16:08,920  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:16:16,714  INFO [main] NetstormEDPageTest:210 - Started:validateBtShowingInResponseTest TestCase-16
+2018-07-03 12:16:18,454  INFO [main] NetstormEDPageTest:219 - Completed:validateBtShowingInResponseTest TestCase-16
+2018-07-03 12:16:18,456  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:16:18,528  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:16:18,529  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:16:25,208  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:16:25,208  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:16:33,138  INFO [main] NetstormEDPageTest:226 - Started:showFlowPathForSelectedTierTest TestCase-17
+2018-07-03 12:16:35,182  INFO [main] NetstormEDPageTest:234 - Completed:showFlowPathForSelectedTierTest TestCase-17
+2018-07-03 12:16:35,184  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver
+2018-07-03 12:16:35,260  INFO [main] NetstormEDPageTest:36 - Called setUp method
+2018-07-03 12:16:35,261  INFO [main] TestBase:61 - Default Initialization started
+2018-07-03 12:16:42,299  INFO [main] TestBase:93 - Default initialization finished
+2018-07-03 12:16:42,301  INFO [main] NetstormEDPageTest:39 - Called initialized method from NetstormEDPageTest
+2018-07-03 12:16:50,191  INFO [main] NetstormEDPageTest:240 - Started:validateFPReportByTierRightClickTest TestCase-18
+2018-07-03 12:16:56,515  INFO [main] NetstormEDPageTest:249 - Completed:validateFPReportByTierRightClickTest TestCase-18
+2018-07-03 12:16:56,517  INFO [main] NetstormEDPageTest:255 - Called tearDown: Quiting driver

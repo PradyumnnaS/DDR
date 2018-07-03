@@ -24,7 +24,7 @@ public class ExtendReportListener implements IReporter {
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 			String outputDirectory) {
 		extent = new ExtentReports(outputDirectory + File.separator
-				+ "FreeCRM_Extent.html", true);
+				+ "DDR_Automation_Report.html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();

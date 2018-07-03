@@ -36,13 +36,13 @@ public class TestBase {
 		
 		try {
 			
-			log.info("Getting configuration values from config.properties "
-					+ "and loading the data into Properties class instance");
+			/*log.info("Getting configuration values from config.properties "
+					+ "and loading the data into Properties class instance");*/
 			
 			FileInputStream fin = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/cavisson/ddr/config/config.properties");
 			prop.load(fin);
 			
-			log.info("Config.properties file loaded successfully");		
+			/*log.info("Config.properties file loaded successfully");*/		
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			log.error("Config Properties not found");

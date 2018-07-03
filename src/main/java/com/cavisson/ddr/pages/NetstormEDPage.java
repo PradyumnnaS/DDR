@@ -104,11 +104,11 @@ public class NetstormEDPage extends TestBase{
 	}
 	
 	//Actions
-	public String validateEDPage() {
+	public String titleOfExecutiveDashboard() {
 		return driver.getTitle();
 	}
 	
-	public boolean validateShowDashboard() {
+	public boolean showDashboardInED() {
 		//Using Actions class for double click on it.
 		//Actions action = new Actions(driver);
 		//action.doubleClick(tierbox).build().perform();
@@ -140,7 +140,7 @@ public class NetstormEDPage extends TestBase{
 		
 	}
 	
-	public String validateTierInfo() {
+	public String tierInfoInED() {
 		
 		//Opening DropDown
 		TestUtil.openTierDropDownMenu(tierbox);
@@ -242,7 +242,7 @@ public class NetstormEDPage extends TestBase{
 		
 	}*/
 	
-	public String tpsPopUpLabel() {
+	public String top10TPSPopUpLabel() {
 		
 		//Opening Drop down
 		TestUtil.openTierDropDownMenu(tierbox);
@@ -260,7 +260,7 @@ public class NetstormEDPage extends TestBase{
 		
 	}
 	
-	public boolean validateBtShowingInTps() {
+	public boolean btShowingInTop10Tps() {
 		//Opening Drop Down
 		TestUtil.openTierDropDownMenu(tierbox);
 				
@@ -279,7 +279,7 @@ public class NetstormEDPage extends TestBase{
 		
 	}
 	
-	public String responsePopUpLabel() {
+	public String top10ResponsePopUpLabel() {
 		
 		//Opening Drop Down
 		TestUtil.openTierDropDownMenu(tierbox);
@@ -315,7 +315,7 @@ public class NetstormEDPage extends TestBase{
 		
 	}
 	
-	public NDFlowPathReportPage validateFPReportByTierRightClick() {
+	public NDFlowPathReportPage flowpathByResponseTimefromTierDrillDown() {
 		
 		//Opening Drop Down
 		TestUtil.openTierDropDownMenu(tierbox);

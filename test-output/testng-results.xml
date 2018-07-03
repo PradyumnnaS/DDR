@@ -2,230 +2,230 @@
 <testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="DDR Test Automation Suite" duration-ms="260676" started-at="2018-06-26T16:15:33Z" finished-at="2018-06-26T16:19:54Z">
+  <suite name="DDR Test Automation Suite" duration-ms="270259" started-at="2018-07-03T06:42:26Z" finished-at="2018-07-03T06:46:56Z">
     <groups>
     </groups>
-    <test name="Smoke DDR Test" duration-ms="260676" started-at="2018-06-26T16:15:33Z" finished-at="2018-06-26T16:19:54Z">
+    <test name="Smoke DDR Test" duration-ms="270259" started-at="2018-07-03T06:42:26Z" finished-at="2018-07-03T06:46:56Z">
       <class name="com.cavisson.ddr.testcases.NetstormLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="setUp" is-config="true" duration-ms="6973" started-at="2018-06-26T21:45:33Z" finished-at="2018-06-26T21:45:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="setUp" is-config="true" duration-ms="7845" started-at="2018-07-03T12:12:26Z" finished-at="2018-07-03T12:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginNetstormTitletest()[pri:1, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="loginNetstormTitletest" duration-ms="29" started-at="2018-06-26T21:45:40Z" finished-at="2018-06-26T21:45:40Z">
+        <test-method status="PASS" signature="loginNetstormTitletest()[pri:1, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="loginNetstormTitletest" duration-ms="40" started-at="2018-07-03T12:12:34Z" finished-at="2018-07-03T12:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginNetstormTitletest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="tearDown" is-config="true" duration-ms="80" started-at="2018-06-26T21:45:40Z" finished-at="2018-06-26T21:45:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="tearDown" is-config="true" duration-ms="85" started-at="2018-07-03T12:12:34Z" finished-at="2018-07-03T12:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="setUp" is-config="true" duration-ms="5884" started-at="2018-06-26T21:46:16Z" finished-at="2018-06-26T21:46:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="setUp" is-config="true" duration-ms="7105" started-at="2018-07-03T12:13:13Z" finished-at="2018-07-03T12:13:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginNetstormTest()[pri:2, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="loginNetstormTest" duration-ms="1602" started-at="2018-06-26T21:46:22Z" finished-at="2018-06-26T21:46:24Z">
+        <test-method status="PASS" signature="loginNetstormTest()[pri:2, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="loginNetstormTest" duration-ms="1576" started-at="2018-07-03T12:13:20Z" finished-at="2018-07-03T12:13:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginNetstormTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="tearDown" is-config="true" duration-ms="89" started-at="2018-06-26T21:46:24Z" finished-at="2018-06-26T21:46:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormLoginTest@1d16f93d]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-07-03T12:13:21Z" finished-at="2018-07-03T12:13:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.cavisson.ddr.testcases.NetstormLoginTest -->
       <class name="com.cavisson.ddr.testcases.NetstormSessionPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="setUp" is-config="true" duration-ms="10257" started-at="2018-06-26T21:45:50Z" finished-at="2018-06-26T21:46:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="setUp" is-config="true" duration-ms="11096" started-at="2018-07-03T12:12:45Z" finished-at="2018-07-03T12:12:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateSessionPageTest()[pri:1, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="validateSessionPageTest" duration-ms="133" started-at="2018-06-26T21:46:00Z" finished-at="2018-06-26T21:46:00Z">
+        <test-method status="PASS" signature="validateSessionPageTest()[pri:1, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="validateSessionPageTest" duration-ms="80" started-at="2018-07-03T12:12:56Z" finished-at="2018-07-03T12:12:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSessionPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-06-26T21:46:00Z" finished-at="2018-06-26T21:46:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-07-03T12:12:56Z" finished-at="2018-07-03T12:12:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="setUp" is-config="true" duration-ms="10087" started-at="2018-06-26T21:46:34Z" finished-at="2018-06-26T21:46:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="setUp" is-config="true" duration-ms="11371" started-at="2018-07-03T12:13:33Z" finished-at="2018-07-03T12:13:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickonEDLinkTest()[pri:2, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="clickonEDLinkTest" duration-ms="4106" started-at="2018-06-26T21:46:44Z" finished-at="2018-06-26T21:46:48Z">
+        <test-method status="PASS" signature="clickonEDLinkTest()[pri:2, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="clickonEDLinkTest" duration-ms="3907" started-at="2018-07-03T12:13:44Z" finished-at="2018-07-03T12:13:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonEDLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="138" started-at="2018-06-26T21:46:48Z" finished-at="2018-06-26T21:46:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormSessionPageTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="182" started-at="2018-07-03T12:13:48Z" finished-at="2018-07-03T12:13:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.cavisson.ddr.testcases.NetstormSessionPageTest -->
       <class name="com.cavisson.ddr.testcases.NetstormHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="9332" started-at="2018-06-26T21:45:40Z" finished-at="2018-06-26T21:45:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="11031" started-at="2018-07-03T12:12:34Z" finished-at="2018-07-03T12:12:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNetstormHomeTest()[pri:1, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="validateNetstormHomeTest" duration-ms="93" started-at="2018-06-26T21:45:49Z" finished-at="2018-06-26T21:45:49Z">
+        <test-method status="PASS" signature="validateNetstormHomeTest()[pri:1, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="validateNetstormHomeTest" duration-ms="95" started-at="2018-07-03T12:12:45Z" finished-at="2018-07-03T12:12:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNetstormHomeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-06-26T21:45:49Z" finished-at="2018-06-26T21:45:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-07-03T12:12:45Z" finished-at="2018-07-03T12:12:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="9978" started-at="2018-06-26T21:46:24Z" finished-at="2018-06-26T21:46:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="11187" started-at="2018-07-03T12:13:22Z" finished-at="2018-07-03T12:13:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNetstormReleaseTest()[pri:2, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="validateNetstormReleaseTest" duration-ms="59" started-at="2018-06-26T21:46:34Z" finished-at="2018-06-26T21:46:34Z">
+        <test-method status="PASS" signature="validateNetstormReleaseTest()[pri:2, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="validateNetstormReleaseTest" duration-ms="73" started-at="2018-07-03T12:13:33Z" finished-at="2018-07-03T12:13:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNetstormReleaseTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="53" started-at="2018-06-26T21:46:34Z" finished-at="2018-06-26T21:46:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="86" started-at="2018-07-03T12:13:33Z" finished-at="2018-07-03T12:13:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="9343" started-at="2018-06-26T21:47:06Z" finished-at="2018-06-26T21:47:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="10490" started-at="2018-07-03T12:14:06Z" finished-at="2018-07-03T12:14:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickonSessionTest()[pri:3, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="clickonSessionTest" duration-ms="401" started-at="2018-06-26T21:47:16Z" finished-at="2018-06-26T21:47:16Z">
+        <test-method status="PASS" signature="clickonSessionTest()[pri:3, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="clickonSessionTest" duration-ms="378" started-at="2018-07-03T12:14:16Z" finished-at="2018-07-03T12:14:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonSessionTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-06-26T21:47:16Z" finished-at="2018-06-26T21:47:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormHomePageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-07-03T12:14:17Z" finished-at="2018-07-03T12:14:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.cavisson.ddr.testcases.NetstormHomePageTest -->
       <class name="com.cavisson.ddr.testcases.NetstormEDPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14222" started-at="2018-06-26T21:46:00Z" finished-at="2018-06-26T21:46:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="15202" started-at="2018-07-03T12:12:56Z" finished-at="2018-07-03T12:13:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateEDPageTest()[pri:1, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateEDPageTest" duration-ms="1825" started-at="2018-06-26T21:46:14Z" finished-at="2018-06-26T21:46:16Z">
+        <test-method status="PASS" signature="validateEDPageTest()[pri:1, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateEDPageTest" duration-ms="1170" started-at="2018-07-03T12:13:12Z" finished-at="2018-07-03T12:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEDPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="241" started-at="2018-06-26T21:46:16Z" finished-at="2018-06-26T21:46:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-07-03T12:13:13Z" finished-at="2018-07-03T12:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14340" started-at="2018-06-26T21:46:48Z" finished-at="2018-06-26T21:47:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14935" started-at="2018-07-03T12:13:48Z" finished-at="2018-07-03T12:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateShowDashboardTest()[pri:2, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateShowDashboardTest" duration-ms="3636" started-at="2018-06-26T21:47:03Z" finished-at="2018-06-26T21:47:06Z">
+        <test-method status="PASS" signature="validateShowDashboardTest()[pri:2, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateShowDashboardTest" duration-ms="2559" started-at="2018-07-03T12:14:03Z" finished-at="2018-07-03T12:14:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateShowDashboardTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-06-26T21:47:06Z" finished-at="2018-06-26T21:47:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-07-03T12:14:06Z" finished-at="2018-07-03T12:14:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14037" started-at="2018-06-26T21:47:16Z" finished-at="2018-06-26T21:47:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14981" started-at="2018-07-03T12:14:17Z" finished-at="2018-07-03T12:14:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateTierInfoTest()[pri:3, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateTierInfoTest" duration-ms="2687" started-at="2018-06-26T21:47:30Z" finished-at="2018-06-26T21:47:33Z">
+        <test-method status="PASS" signature="validateTierInfoTest()[pri:3, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateTierInfoTest" duration-ms="2362" started-at="2018-07-03T12:14:32Z" finished-at="2018-07-03T12:14:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTierInfoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="136" started-at="2018-06-26T21:47:33Z" finished-at="2018-06-26T21:47:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="121" started-at="2018-07-03T12:14:34Z" finished-at="2018-07-03T12:14:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14282" started-at="2018-06-26T21:47:33Z" finished-at="2018-06-26T21:47:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="15257" started-at="2018-07-03T12:14:34Z" finished-at="2018-07-03T12:14:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="overviewInTierInfoTest()[pri:4, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="overviewInTierInfoTest" duration-ms="4316" started-at="2018-06-26T21:47:47Z" finished-at="2018-06-26T21:47:52Z">
+        <test-method status="PASS" signature="overviewInTierInfoTest()[pri:4, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="overviewInTierInfoTest" duration-ms="2481" started-at="2018-07-03T12:14:50Z" finished-at="2018-07-03T12:14:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- overviewInTierInfoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-06-26T21:47:52Z" finished-at="2018-06-26T21:47:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-07-03T12:14:52Z" finished-at="2018-07-03T12:14:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="13942" started-at="2018-06-26T21:47:52Z" finished-at="2018-06-26T21:48:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="15120" started-at="2018-07-03T12:14:52Z" finished-at="2018-07-03T12:15:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="healthInTierInfoTest()[pri:5, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="healthInTierInfoTest" duration-ms="3955" started-at="2018-06-26T21:48:06Z" finished-at="2018-06-26T21:48:10Z">
+        <test-method status="PASS" signature="healthInTierInfoTest()[pri:5, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="healthInTierInfoTest" duration-ms="3118" started-at="2018-07-03T12:15:07Z" finished-at="2018-07-03T12:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthInTierInfoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="69" started-at="2018-06-26T21:48:10Z" finished-at="2018-06-26T21:48:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-07-03T12:15:10Z" finished-at="2018-07-03T12:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="16344" started-at="2018-06-26T21:48:10Z" finished-at="2018-06-26T21:48:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="15595" started-at="2018-07-03T12:15:10Z" finished-at="2018-07-03T12:15:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tpsPopUpLabelTest()[pri:6, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tpsPopUpLabelTest" duration-ms="2144" started-at="2018-06-26T21:48:26Z" finished-at="2018-06-26T21:48:28Z">
+        <test-method status="PASS" signature="tpsPopUpLabelTest()[pri:6, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tpsPopUpLabelTest" duration-ms="1857" started-at="2018-07-03T12:15:26Z" finished-at="2018-07-03T12:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tpsPopUpLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-06-26T21:48:28Z" finished-at="2018-06-26T21:48:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-07-03T12:15:28Z" finished-at="2018-07-03T12:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14139" started-at="2018-06-26T21:48:28Z" finished-at="2018-06-26T21:48:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14697" started-at="2018-07-03T12:15:28Z" finished-at="2018-07-03T12:15:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateBtShowingInTpsTest()[pri:7, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateBtShowingInTpsTest" duration-ms="1946" started-at="2018-06-26T21:48:42Z" finished-at="2018-06-26T21:48:44Z">
+        <test-method status="PASS" signature="validateBtShowingInTpsTest()[pri:7, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateBtShowingInTpsTest" duration-ms="2088" started-at="2018-07-03T12:15:43Z" finished-at="2018-07-03T12:15:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBtShowingInTpsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="141" started-at="2018-06-26T21:48:44Z" finished-at="2018-06-26T21:48:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-07-03T12:15:45Z" finished-at="2018-07-03T12:15:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="13667" started-at="2018-06-26T21:48:44Z" finished-at="2018-06-26T21:48:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14915" started-at="2018-07-03T12:15:45Z" finished-at="2018-07-03T12:16:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="responsePopUpLabelTest()[pri:8, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="responsePopUpLabelTest" duration-ms="2011" started-at="2018-06-26T21:48:58Z" finished-at="2018-06-26T21:49:00Z">
+        <test-method status="PASS" signature="responsePopUpLabelTest()[pri:8, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="responsePopUpLabelTest" duration-ms="1980" started-at="2018-07-03T12:16:00Z" finished-at="2018-07-03T12:16:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responsePopUpLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-06-26T21:49:00Z" finished-at="2018-06-26T21:49:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-07-03T12:16:02Z" finished-at="2018-07-03T12:16:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14549" started-at="2018-06-26T21:49:00Z" finished-at="2018-06-26T21:49:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14402" started-at="2018-07-03T12:16:02Z" finished-at="2018-07-03T12:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateBtShowingInResponseTest()[pri:9, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateBtShowingInResponseTest" duration-ms="2029" started-at="2018-06-26T21:49:15Z" finished-at="2018-06-26T21:49:17Z">
+        <test-method status="PASS" signature="validateBtShowingInResponseTest()[pri:9, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateBtShowingInResponseTest" duration-ms="1741" started-at="2018-07-03T12:16:16Z" finished-at="2018-07-03T12:16:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBtShowingInResponseTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="71" started-at="2018-06-26T21:49:17Z" finished-at="2018-06-26T21:49:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-07-03T12:16:18Z" finished-at="2018-07-03T12:16:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="13770" started-at="2018-06-26T21:49:17Z" finished-at="2018-06-26T21:49:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14609" started-at="2018-07-03T12:16:18Z" finished-at="2018-07-03T12:16:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="showFlowPathForSelectedTierTest()[pri:10, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="showFlowPathForSelectedTierTest" duration-ms="2406" started-at="2018-06-26T21:49:31Z" finished-at="2018-06-26T21:49:33Z">
+        <test-method status="PASS" signature="showFlowPathForSelectedTierTest()[pri:10, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="showFlowPathForSelectedTierTest" duration-ms="2046" started-at="2018-07-03T12:16:33Z" finished-at="2018-07-03T12:16:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showFlowPathForSelectedTierTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="69" started-at="2018-06-26T21:49:33Z" finished-at="2018-06-26T21:49:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-07-03T12:16:35Z" finished-at="2018-07-03T12:16:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="13985" started-at="2018-06-26T21:49:33Z" finished-at="2018-06-26T21:49:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="14928" started-at="2018-07-03T12:16:35Z" finished-at="2018-07-03T12:16:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateFPReportByTierRightClickTest()[pri:11, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateFPReportByTierRightClickTest" duration-ms="6407" started-at="2018-06-26T21:49:47Z" finished-at="2018-06-26T21:49:54Z">
+        <test-method status="PASS" signature="validateFPReportByTierRightClickTest()[pri:11, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="validateFPReportByTierRightClickTest" duration-ms="6328" started-at="2018-07-03T12:16:50Z" finished-at="2018-07-03T12:16:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFPReportByTierRightClickTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-06-26T21:49:54Z" finished-at="2018-06-26T21:49:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cavisson.ddr.testcases.NetstormEDPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-07-03T12:16:56Z" finished-at="2018-07-03T12:16:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
