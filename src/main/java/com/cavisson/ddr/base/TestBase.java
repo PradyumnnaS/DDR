@@ -67,6 +67,7 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver",
 					"/home/PradyumnnaS/EclipseHome/workspace/DDR/chromedriver");
 			driver = new ChromeDriver();
+			
 		}else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver",
 					"/home/PradyumnnaS/EclipseHome/workspace/DDR/geckodriver");

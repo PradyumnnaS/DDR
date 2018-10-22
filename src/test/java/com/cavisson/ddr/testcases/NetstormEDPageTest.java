@@ -251,9 +251,16 @@ public class NetstormEDPageTest extends TestBase {
 	}
 	
 	@Test(priority=12)
-	public void flowpathByCallOutErrorfromTierDrillDown() {
+	public void flowpathByCallOutErrorfromTierDrillDownTest() {
 		
 	}
+	
+	@Test(priority=13)
+	public void slowDBCallByResponseTimeTest() {
+		
+	}
+	
+	
 	
 	@AfterMethod
 	public void tearDown() {
